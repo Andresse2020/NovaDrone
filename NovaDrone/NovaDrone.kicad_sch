@@ -3,14 +3,6639 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7036a814-0f41-4c6c-a077-a78d90a22423")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "NovaDrone")
 		(date "2025-05-21")
 		(rev "v1.0")
 		(company "BASSINGA")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "BassingaLib_BridgeDRVR:UCC27211DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 11.176 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UCC27211DR"
+				(at 6.858 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BassingaLib_BridgeDRVR:SOIC127P600X175-8N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/UCC27211"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "120V Boot, 4A Peak, High Frequency High-Side Low-Side Driver"
+				(at 13.208 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-UCC27211DR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27211DR?qs=tTIQDc3uNmWBcBevB2oGbw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UCC27211DR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Packaging" "SOIC-8"
+				(at 12.446 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UCC27211DR_1_1"
+				(rectangle
+					(start 5.08 8.89)
+					(end 20.32 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "LI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 6.35 180)
+					(length 5.08)
+					(name "HB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -1.27 180)
+					(length 5.08)
+					(name "HO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "HS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -8.89 180)
+					(length 5.08)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BassingaLib_Diodes:SS0540_R1_00001"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 8.128 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SS0540_R1_00001"
+				(at 0.508 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BassingaLib_Diodes:SOD3816X135N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS0520_SERIES.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky Diodes & Rectifiers SURFACE MOUNT SCHOTTKY BARRIER"
+				(at 5.842 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "241-SS0540_R1_00001"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SS0540_R1_00001?qs=sPbYRqrBIVn%2F%252BqoXj%2F1rpw%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SS0540_R1_00001"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Packaging" " SOD-123"
+				(at 8.636 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS0540_R1_00001_1_1"
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.6023 -1.3204) (xy 6.604 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.905) (xy 7.62 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 11.43 1.905) (xy 11.43 -1.905) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.905) (xy 6.604 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.747 1.905) (xy 8.763 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.7575 1.8923) (xy 8.7592 1.3077)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BassingaLib_Power_Symbols:Power"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Power"
+				(at -0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_1_1"
+				(pin power_out line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BassingaLib_Power_Symbols:Power_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Power_GND"
+				(at 0.254 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_GND_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 105.41 176.53)
+		(end 189.23 248.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01e53f08-5947-42a1-8e98-e27dfed8d965)
+	)
+	(rectangle
+		(start 17.78 176.53)
+		(end 101.6 248.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f2d0ade-c359-417e-8ae5-adc92e9dd597)
+	)
+	(rectangle
+		(start 196.85 21.59)
+		(end 256.54 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4f4a041c-6d66-40ad-857a-e6d630a12ab8)
+	)
+	(rectangle
+		(start 196.85 176.53)
+		(end 299.72 248.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5179f151-f917-4b40-a989-95c32ced6a01)
+	)
+	(rectangle
+		(start 261.62 21.59)
+		(end 299.72 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 872e23bb-53a0-4710-9986-c35558a969b4)
+	)
+	(rectangle
+		(start 310.896 176.53)
+		(end 394.716 248.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid adb93c63-4576-4d02-a6e9-3f62dd0aa7cf)
+	)
+	(text "Voltage Bus Mesurement"
+		(exclude_from_sim no)
+		(at 147.574 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "08062bfb-c0d7-49b8-8e57-a3527197e901")
+	)
+	(text "Back-EMF Sensing"
+		(exclude_from_sim no)
+		(at 247.396 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4de87925-c0da-4716-94f4-bf844b0e9aa2")
+	)
+	(text "PCB Temperature Mesurement"
+		(exclude_from_sim no)
+		(at 353.06 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4eda18dd-1f78-4268-a728-c0bc37e4b1e7")
+	)
+	(text "Power Invertor"
+		(exclude_from_sim no)
+		(at 280.162 28.448 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a4e29709-e815-48dd-a25a-1bd8b78457fa")
+	)
+	(text "+3.3V Mesurement"
+		(exclude_from_sim no)
+		(at 59.944 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c8b9153f-9ab0-4bcd-84c7-3b088799e491")
+	)
+	(text "Half-Bridge Driver"
+		(exclude_from_sim no)
+		(at 228.346 28.194 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f5ba2e3a-3865-46e3-9b84-89f437c3a1ce")
+	)
+	(text_box "The voltage ragne from:\n\nOut : 0V to 6S_Power (22.2V0)\nPhase: 0V to 2.76V"
+		(exclude_from_sim no)
+		(at 257.81 226.06 0)
+		(size 38.1 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cbe36d1f-001f-474a-93ed-6fdfe8984792")
+	)
+	(junction
+		(at 325.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01d0fa06-57eb-4642-9406-55e4f29fe50d")
+	)
+	(junction
+		(at 251.46 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2205dd85-bcda-4356-9b4c-cdf0468ee9a1")
+	)
+	(junction
+		(at 229.87 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24eaff36-c7aa-45d7-94e6-bea8c8986235")
+	)
+	(junction
+		(at 148.59 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8481b6-f412-4c44-aec2-c0924740e4fc")
+	)
+	(junction
+		(at 280.67 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44c5fcd0-9609-45e4-a94a-af9a598cc5c8")
+	)
+	(junction
+		(at 60.96 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5036921e-f9ea-4e75-bd3a-72b980cd7706")
+	)
+	(junction
+		(at 325.12 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fdbec71-7e50-4568-8b47-4785f50116af")
+	)
+	(junction
+		(at 228.6 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce4dc4c-8d1c-45a1-af10-803657cc8ee1")
+	)
+	(junction
+		(at 132.08 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72e1b8ac-62e3-406e-adc2-604f376a1b5f")
+	)
+	(junction
+		(at 44.45 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74c838d7-6982-46fc-b318-c181fa3abc50")
+	)
+	(junction
+		(at 132.08 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1c3a1b-1d03-4219-ad3c-52eb8d1ca233")
+	)
+	(junction
+		(at 325.12 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1011c62-2fef-4956-a918-9a021c9f2188")
+	)
+	(junction
+		(at 251.46 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b555d198-f73b-4b6a-badd-ff9f88a7b351")
+	)
+	(junction
+		(at 251.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beff9709-14f6-4e3b-9ff6-b908279d4430")
+	)
+	(junction
+		(at 44.45 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cacb4ab4-9ce3-4b91-99fb-bfe8a8333133")
+	)
+	(wire
+		(pts
+			(xy 237.49 149.86) (xy 237.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e358b8-00c5-4a94-aa2b-8818f55310d6")
+	)
+	(wire
+		(pts
+			(xy 228.6 199.39) (xy 220.98 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b85302-35cf-473e-8278-be12135473d8")
+	)
+	(wire
+		(pts
+			(xy 60.96 215.9) (xy 60.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c820a3-79dc-43a9-b535-2807ac010464")
+	)
+	(wire
+		(pts
+			(xy 234.95 149.86) (xy 237.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0cf5f-04f2-4fee-ad0d-960c9e8e56d3")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 238.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f025fc3-a1e9-49ff-8598-58efca8f3068")
+	)
+	(wire
+		(pts
+			(xy 234.95 57.15) (xy 269.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1784ea39-e52e-4a41-80b2-ad54f8b3245f")
+	)
+	(wire
+		(pts
+			(xy 325.12 151.13) (xy 316.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b329436-6665-4ef3-895c-753e2ee0525b")
+	)
+	(wire
+		(pts
+			(xy 325.12 62.23) (xy 316.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ea9c90-5d81-46c3-b803-9c63bb8d4c97")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c99008-3495-4766-a1f8-daacb59ab99f")
+	)
+	(wire
+		(pts
+			(xy 292.1 57.15) (xy 339.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299bf7b5-f360-476e-b0d4-98533064292e")
+	)
+	(wire
+		(pts
+			(xy 292.1 92.71) (xy 308.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df5c1ad-f63c-4e40-995b-2103265f6fd0")
+	)
+	(wire
+		(pts
+			(xy 60.96 229.87) (xy 44.45 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31005108-bca8-46b9-88d6-7e0e5346f6d3")
+	)
+	(wire
+		(pts
+			(xy 234.95 86.36) (xy 238.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371c15e0-9b94-45b6-9106-58cb9bfac35a")
+	)
+	(wire
+		(pts
+			(xy 237.49 60.96) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab602d2-810d-4953-95b5-c7fc473e2864")
+	)
+	(wire
+		(pts
+			(xy 292.1 62.23) (xy 308.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4051d4-570e-411e-8fcf-975be830556a")
+	)
+	(wire
+		(pts
+			(xy 132.08 215.9) (xy 132.08 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42743a4d-aa9a-4fed-98d9-0a6535828e39")
+	)
+	(wire
+		(pts
+			(xy 325.12 109.22) (xy 325.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46895b99-46c9-4183-9c2b-5b258419d65c")
+	)
+	(wire
+		(pts
+			(xy 292.1 106.68) (xy 308.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470541ce-4523-4a22-8627-eb7968c07599")
+	)
+	(wire
+		(pts
+			(xy 234.95 105.41) (xy 237.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f5cd0d-d74a-4921-a255-4e9426ae7e4f")
+	)
+	(wire
+		(pts
+			(xy 251.46 97.79) (xy 269.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7024c9-9ea5-4318-807a-bb82438711d2")
+	)
+	(wire
+		(pts
+			(xy 246.38 86.36) (xy 251.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51824797-1c10-40e9-a3b2-5a1a1aaa45c6")
+	)
+	(wire
+		(pts
+			(xy 60.96 215.9) (xy 85.09 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52810667-2b08-4909-a16d-06b41e37712a")
+	)
+	(wire
+		(pts
+			(xy 292.1 48.26) (xy 308.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546fe722-cbd6-485d-bc2a-5e6d070f4cca")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 237.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5945d6bc-70f2-48f0-9228-df7006a827d7")
+	)
+	(wire
+		(pts
+			(xy 325.12 119.38) (xy 325.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a443a53-c23e-441e-aa1e-bd4f64937118")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 269.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aea2976-bde0-45cc-8966-07c3df1fcca6")
+	)
+	(wire
+		(pts
+			(xy 325.12 106.68) (xy 339.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2fcc5a-6dfd-44e6-af04-69748459146b")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 237.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d60bacd-f4cd-4ef7-be5a-0b75e92cbc00")
+	)
+	(wire
+		(pts
+			(xy 234.95 138.43) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660c023e-1349-497d-90f5-257e6172e93e")
+	)
+	(wire
+		(pts
+			(xy 44.45 229.87) (xy 44.45 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69db9983-d177-449b-b45c-25627f4e65f6")
+	)
+	(wire
+		(pts
+			(xy 204.47 132.08) (xy 209.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec523be-650c-4ec1-b929-2ac1bf735939")
+	)
+	(wire
+		(pts
+			(xy 44.45 198.12) (xy 44.45 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727384c6-09cc-43bc-aade-e07e19564f5a")
+	)
+	(wire
+		(pts
+			(xy 251.46 130.81) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729df36b-abe0-4141-aa3d-e6ed61cbd9d3")
+	)
+	(wire
+		(pts
+			(xy 148.59 215.9) (xy 148.59 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734ffc22-591f-4080-9e55-0735c154bda3")
+	)
+	(wire
+		(pts
+			(xy 60.96 226.06) (xy 60.96 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74203070-8312-47a5-81fb-cb0e4d436265")
+	)
+	(wire
+		(pts
+			(xy 204.47 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7453722f-7387-4afa-be03-6a090829e48f")
+	)
+	(wire
+		(pts
+			(xy 280.67 201.93) (xy 280.67 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc30273-9e0a-4cb5-8486-4ca5ad269bd2")
+	)
+	(wire
+		(pts
+			(xy 325.12 151.13) (xy 339.09 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6cb10a-f0c7-4701-b6ee-128eb92022fd")
+	)
+	(wire
+		(pts
+			(xy 229.87 228.6) (xy 229.87 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed12084-720d-4657-a87e-ae993acb621a")
+	)
+	(wire
+		(pts
+			(xy 234.95 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80109c2d-32f9-4a88-87b5-7933002291ec")
+	)
+	(wire
+		(pts
+			(xy 280.67 212.09) (xy 280.67 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8383f446-af90-4dd4-9935-34dfc119f019")
+	)
+	(wire
+		(pts
+			(xy 325.12 62.23) (xy 339.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85925187-b90e-4875-b55e-37dcd01cb2e3")
+	)
+	(wire
+		(pts
+			(xy 234.95 142.24) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e62c65-176b-41a1-96a0-774b3cf447e3")
+	)
+	(wire
+		(pts
+			(xy 148.59 229.87) (xy 132.08 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae38c91-d24b-4f36-b77a-1b97a97601c6")
+	)
+	(wire
+		(pts
+			(xy 325.12 153.67) (xy 325.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3c9684-f5b9-41c6-a0f8-5ce92c0d3869")
+	)
+	(wire
+		(pts
+			(xy 229.87 226.06) (xy 242.57 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f94f58d-4254-4c7c-a7ae-fa7cb4c11f5f")
+	)
+	(wire
+		(pts
+			(xy 292.1 146.05) (xy 339.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fd8c2e-3425-417b-bf12-633d3afcab89")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 204.47 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9290bfd7-cdb6-478c-abb7-97e6e92c8a19")
+	)
+	(wire
+		(pts
+			(xy 44.45 226.06) (xy 44.45 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947e98d5-0ba9-4ef5-a106-ad77d9d59703")
+	)
+	(wire
+		(pts
+			(xy 148.59 226.06) (xy 148.59 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96db85fa-8ea5-4430-8692-56909303f7fd")
+	)
+	(wire
+		(pts
+			(xy 280.67 199.39) (xy 273.05 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f102393-5620-4d68-a513-b3625e5e4de7")
+	)
+	(wire
+		(pts
+			(xy 44.45 210.82) (xy 44.45 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23dea66-c608-4f19-9d51-ec498ab78567")
+	)
+	(wire
+		(pts
+			(xy 148.59 198.12) (xy 148.59 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41059b6-ef3a-4de3-aabc-a2b8156d2ef3")
+	)
+	(wire
+		(pts
+			(xy 325.12 163.83) (xy 325.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56beda5-69a0-4f2e-ae4f-bea4ba2585b5")
+	)
+	(wire
+		(pts
+			(xy 228.6 212.09) (xy 228.6 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76b2bf6-a98f-4546-972b-b54a1a56f6fb")
+	)
+	(wire
+		(pts
+			(xy 203.2 226.06) (xy 214.63 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8b06eb-afad-4092-9a16-1b029f5c2249")
+	)
+	(wire
+		(pts
+			(xy 204.47 129.54) (xy 204.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48ecd28-59da-4d15-bfec-9d4797199162")
+	)
+	(wire
+		(pts
+			(xy 44.45 215.9) (xy 44.45 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eda4fe-6dc8-4d4f-b463-94f3ae94e302")
+	)
+	(wire
+		(pts
+			(xy 234.95 97.79) (xy 251.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60903ea-adda-4a69-bfa6-7eda0132918e")
+	)
+	(wire
+		(pts
+			(xy 204.47 43.18) (xy 209.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cf0528-c346-4ec8-a89f-4181088fa9f0")
+	)
+	(wire
+		(pts
+			(xy 234.95 93.98) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a0da28-e322-4f36-9e14-9df8355b7ae9")
+	)
+	(wire
+		(pts
+			(xy 132.08 215.9) (xy 148.59 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde43c45-5351-4475-84b8-eac0f21c0263")
+	)
+	(wire
+		(pts
+			(xy 246.38 130.81) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4e7252-7d55-42bd-bafe-12ecbe22f33d")
+	)
+	(wire
+		(pts
+			(xy 204.47 85.09) (xy 204.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85fe0ce-b495-447e-9c52-7140b5d911fc")
+	)
+	(wire
+		(pts
+			(xy 251.46 41.91) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92ab4c7-e630-4c09-8bd7-3f2272c34c20")
+	)
+	(wire
+		(pts
+			(xy 228.6 201.93) (xy 228.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb54b8cc-68ea-463b-ae9c-1c5e1aef2a94")
+	)
+	(wire
+		(pts
+			(xy 325.12 64.77) (xy 325.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd484d8d-9d47-41f7-a1fb-0e418f227c3a")
+	)
+	(wire
+		(pts
+			(xy 246.38 41.91) (xy 251.46 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7b14d0-446a-4e7e-89a7-defc417c14d6")
+	)
+	(wire
+		(pts
+			(xy 229.87 238.76) (xy 229.87 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd82d193-b171-4fdb-bc80-145bd9394280")
+	)
+	(wire
+		(pts
+			(xy 132.08 226.06) (xy 132.08 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda37863-a251-490c-a4c0-8e3d4140393a")
+	)
+	(wire
+		(pts
+			(xy 148.59 213.36) (xy 148.59 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce00903c-8c4e-4168-aa78-8b2b284c4fd7")
+	)
+	(wire
+		(pts
+			(xy 292.1 151.13) (xy 308.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3803be-ebf0-4361-89da-8017bb8d3d02")
+	)
+	(wire
+		(pts
+			(xy 325.12 106.68) (xy 316.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17e79cf-01fb-4ec2-898f-7bb77e376d58")
+	)
+	(wire
+		(pts
+			(xy 44.45 215.9) (xy 60.96 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ff7b07-90d6-4aac-9f7b-69bcd530db15")
+	)
+	(wire
+		(pts
+			(xy 280.67 199.39) (xy 294.64 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf5ad19-7870-46ca-afd5-faa76c1b8a97")
+	)
+	(wire
+		(pts
+			(xy 203.2 199.39) (xy 213.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccd2130-d4bc-403d-9479-52cad3f0d4e7")
+	)
+	(wire
+		(pts
+			(xy 234.95 130.81) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df702a8c-5090-425c-bc8e-c5178919ba94")
+	)
+	(wire
+		(pts
+			(xy 251.46 86.36) (xy 251.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cbbffb-8d6d-49d9-9dd7-50f58ac3a4d1")
+	)
+	(wire
+		(pts
+			(xy 292.1 101.6) (xy 339.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a9f3f7-b492-4ae8-a142-58a268f278fb")
+	)
+	(wire
+		(pts
+			(xy 255.27 199.39) (xy 265.43 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88ce4e2-0070-4b85-a799-b32fb9114876")
+	)
+	(wire
+		(pts
+			(xy 132.08 198.12) (xy 132.08 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f6bfe2-3098-4463-953e-c4cb42a8a7f9")
+	)
+	(wire
+		(pts
+			(xy 132.08 229.87) (xy 132.08 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e971179d-bd77-41a8-bffe-96dc7b871cdc")
+	)
+	(wire
+		(pts
+			(xy 234.95 49.53) (xy 269.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2a497a-19c5-4348-89ef-ee6f3bec88b8")
+	)
+	(wire
+		(pts
+			(xy 234.95 53.34) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6cf20e-4840-40a1-a48b-cf9870d873bd")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 269.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8f725d-f154-4ba7-8aed-aa55d7cf0436")
+	)
+	(wire
+		(pts
+			(xy 132.08 210.82) (xy 132.08 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee778cea-2609-4312-8e9e-b9850a4cffb1")
+	)
+	(wire
+		(pts
+			(xy 229.87 226.06) (xy 222.25 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06916f3-faba-4ec1-9c42-9ad13738b093")
+	)
+	(wire
+		(pts
+			(xy 325.12 74.93) (xy 325.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f545ddc9-63f5-49a6-a7b2-44d8bce59f71")
+	)
+	(wire
+		(pts
+			(xy 228.6 199.39) (xy 242.57 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56b5a72-d8a5-4131-93aa-c1277cf5fb23")
+	)
+	(wire
+		(pts
+			(xy 292.1 135.89) (xy 308.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bb2a12-206d-4328-814e-5968f7d8dca8")
+	)
+	(wire
+		(pts
+			(xy 148.59 215.9) (xy 172.72 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74ad5ce-ad04-44e3-b11a-2b0bfb9045c6")
+	)
+	(label "OUT3"
+		(at 308.61 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00a59aa6-15ad-489c-ab58-cd4be3f3b826")
+	)
+	(label "Vbus_Mesure"
+		(at 172.72 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0123bb5f-f027-4d0a-b9a7-5c5c15031ff3")
+	)
+	(label "V3.3_Mesure"
+		(at 85.09 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05fe40e9-7782-4be8-a8bf-1b379aaee573")
+	)
+	(label "Vshunt_3"
+		(at 339.09 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07e54331-8990-479e-a0f3-f21a8cb3ab01")
+	)
+	(label "OUT2"
+		(at 308.61 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ecf3b57-9e92-4c11-ab7b-919aa188637b")
+	)
+	(label "OUT1"
+		(at 308.61 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13fe26f9-cda0-480a-9f4a-9eaba5d2cae8")
+	)
+	(label "Current_Sens_2"
+		(at 339.09 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1469046d-6599-413d-a037-f065af10235f")
+	)
+	(label "OUT1"
+		(at 203.2 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea993be-086c-4fb2-8691-761d3794b2f6")
+	)
+	(label "OUT1"
+		(at 255.27 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30375eff-ca32-4fcf-bcff-81679b57e258")
+	)
+	(label "Phase_1"
+		(at 242.57 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dbc78ec-e877-4474-8a2b-a2706d118c80")
+	)
+	(label "Phase_1"
+		(at 294.64 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "415bb1cf-0b10-4def-b597-64e3faf412ff")
+	)
+	(label "Current_Sens_3"
+		(at 339.09 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5937f57a-23b6-4bdd-91a2-c1ee6f883c59")
+	)
+	(label "Phase_1"
+		(at 242.57 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99311629-dcf2-4242-9e61-1e99774b4dbd")
+	)
+	(label "Current_Sens_1"
+		(at 339.09 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af732e59-0205-480c-8e03-bb0ecf128a9b")
+	)
+	(label "Vshunt_1"
+		(at 339.09 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b61c5ce4-bbc3-4cb8-b2d5-394bc341b549")
+	)
+	(label "Vshunt_2"
+		(at 339.09 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efd6d862-13de-4c56-906e-e8aac4bd5f63")
+	)
+	(label "OUT1"
+		(at 203.2 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9beedee-7fb9-4c27-8cfa-ee277fd68cae")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a575037-fe7b-4e72-bf18-7e33b9a91dd9")
+		(property "Reference" "#PWR022"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcde2c7-6d46-4d7a-ac97-9d6dc3b0e917")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e2ffee2-b484-4e8d-a16b-9828d4a8a68e")
+		(property "Reference" "C5"
+			(at 242.316 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 242.57 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 87.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KB85PNL"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da54a112-29fe-451d-8b7b-0417b980e43c")
+		)
+		(pin "2"
+			(uuid "8fe156c3-8513-4deb-b61c-43a466ed6cb2")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 199.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13d98523-1b99-4d2e-b753-7833c69712d8")
+		(property "Reference" "R17"
+			(at 218.948 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k 1%"
+			(at 220.472 202.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.17 197.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 217.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+			(at 217.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 217.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1333KL"
+			(at 217.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 217.17 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb977a32-06c0-4bc4-86c7-3b1d4b198983")
+		)
+		(pin "2"
+			(uuid "88360292-7b6c-45bf-9a3f-d5828e160252")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b49d38-94f5-48a2-9efc-86406e1edfc0")
+		(property "Reference" "#PWR031"
+			(at 228.6 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8b73173-4f76-4818-998a-3cbb55705b8a")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 44.45 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1afe75c9-8d8f-4bca-8876-4f818c0ff5d5")
+		(property "Reference" "#PWR040"
+			(at 44.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 44.45 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ebac96-6466-48f2-8a7d-2c6a6d72cdb9")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b130b89-5774-44d6-8cf9-7b0eff370878")
+		(property "Reference" "#PWR013"
+			(at 237.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b386cbf-3429-4d2d-97ee-f1be40c59fdd")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf7b1ea-efb7-4308-a6f2-38a87e4e21cb")
+		(property "Reference" "R32"
+			(at 317.754 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680R 1%"
+			(at 310.896 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 312.42 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 312.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 680 Ohms 100mW 0603 1%"
+			(at 312.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 312.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07680RL"
+			(at 312.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 312.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a29db1-e9bc-47be-a245-0beb3e2efee4")
+		)
+		(pin "2"
+			(uuid "98036d55-2df5-4b69-9415-092db681c512")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 199.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37272596-35bf-4f50-9a43-205666f3f9f9")
+		(property "Reference" "R29"
+			(at 271.018 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k 1%"
+			(at 272.542 202.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 197.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 269.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+			(at 269.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 269.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1333KL"
+			(at 269.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 269.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de25a4a-9b5c-489e-a47d-e06ec9d914fb")
+		)
+		(pin "2"
+			(uuid "0bed8dbf-f6c2-4193-8e4d-202d4e52005c")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 205.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38e21fd4-bdf5-44de-a66b-edf8b5e6e671")
+		(property "Reference" "R26"
+			(at 225.552 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k 1%"
+			(at 231.902 202.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 226.822 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 4.7 kOhms 100mW 0603 1%AEC-Q200"
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AF0603FR-074K7L"
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf4bd082-f9df-4466-adf6-394011f7dfed")
+		)
+		(pin "2"
+			(uuid "429a7947-b29f-49bd-9505-2ea8fdb7ac8c")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Power_Symbols:Power")
+		(at 132.08 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "39c3428e-0898-4ceb-9a9f-3fab30e33f6c")
+		(property "Reference" "#PWR038"
+			(at 132.08 193.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "6S_Power"
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2047e881-3905-4976-b2c3-ae1b5d1020c8")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 232.41 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b3f205b-220c-4676-a94e-b86a975a501d")
+		(property "Reference" "R28"
+			(at 226.822 230.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k 1%"
+			(at 233.172 229.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.092 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+			(at 229.87 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 4.7 kOhms 100mW 0603 1%AEC-Q200"
+			(at 229.87 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 229.87 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AF0603FR-074K7L"
+			(at 229.87 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 229.87 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef3f6e1-ffbc-4ff9-abb8-dc7ee71f47f8")
+		)
+		(pin "2"
+			(uuid "390751e5-85b3-4e34-826a-826934ae0ae3")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 222.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43779e24-2749-4d74-bf0d-1576a2cf6ab5")
+		(property "Reference" "C12"
+			(at 144.78 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15nF"
+			(at 152.654 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.5552 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 148.59 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+			(at 148.59 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 148.59 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
+			(at 148.59 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 148.59 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eab4d903-885c-4b1b-841b-e721a55c3cc5")
+		)
+		(pin "2"
+			(uuid "bfbf54dd-2d52-4a39-9631-b6014b8a8dd8")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ff882f-74cd-4ea8-87d8-e75e8578fa86")
+		(property "Reference" "#PWR014"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36bd2a47-1fe0-4a8b-aeb4-553d1daa467c")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "450650fe-e1fd-4310-a7c6-8ada807cb25a")
+		(property "Reference" "#PWR030"
+			(at 237.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a19c05da-9205-4c73-af06-d85846df70fb")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 226.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cbc33f-043f-4b9e-8829-438d78b358a5")
+		(property "Reference" "R27"
+			(at 220.218 223.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k 1%"
+			(at 221.742 229.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1333KL"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cedb667-9b23-4017-8323-153d47185655")
+		)
+		(pin "2"
+			(uuid "de3d5645-601c-455e-904e-e37c02605e57")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 148.59 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5e605c-1105-4ca8-baed-65fc391fb42a")
+		(property "Reference" "#PWR039"
+			(at 148.59 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 148.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 148.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a0df0f-fdd4-4662-987b-fafdf7edb657")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cfcbc19-cad6-4201-adae-5e3ec392ceb8")
+		(property "Reference" "R33"
+			(at 317.754 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680R 1%"
+			(at 310.896 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 312.42 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 680 Ohms 100mW 0603 1%"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07680RL"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d04b6b-2ef8-4dc7-ab14-493cefc4dc2a")
+		)
+		(pin "2"
+			(uuid "539381e9-9627-4531-94a4-b6eac06a6bb6")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c5a91c-9949-471c-a44c-e1d2c75032b4")
+		(property "Reference" "#PWR021"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cdfd5b0-b4e4-47b3-9037-c27abc38714e")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 222.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a3f5821-d9af-443d-86c4-8ca7b166f891")
+		(property "Reference" "C13"
+			(at 57.15 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15nF"
+			(at 65.024 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.9252 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 60.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+			(at 60.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 60.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
+			(at 60.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 60.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a737215e-efb3-4ed1-b763-f8a7d618be9b")
+		)
+		(pin "2"
+			(uuid "fcffe919-5b6f-4866-a508-4638efb737ca")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 280.67 205.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c665b88-2682-44f7-8024-f233a3506d96")
+		(property "Reference" "R30"
+			(at 277.622 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k 1%"
+			(at 283.972 202.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 278.892 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+			(at 280.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 4.7 kOhms 100mW 0603 1%AEC-Q200"
+			(at 280.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 280.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AF0603FR-074K7L"
+			(at 280.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 280.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48ecbd5-e0ea-47d6-86c3-145dfae943ad")
+		)
+		(pin "2"
+			(uuid "631e4998-c92d-447c-a4c6-b73e2df4d2c7")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 325.12 157.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce6305d-401b-4a4c-a33e-6618422b3add")
+		(property "Reference" "C9"
+			(at 321.31 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15nF"
+			(at 329.184 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 326.0852 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd22f0fe-4d70-4c42-beac-1db6e50298e3")
+		)
+		(pin "2"
+			(uuid "0103464d-0084-4f36-9ca0-8cf7fe1a9f5b")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ed7b0f4-24ff-40e8-98e3-c47fcf934bdc")
+		(property "Reference" "R34"
+			(at 317.754 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680R 1%"
+			(at 310.896 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 312.42 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 312.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 680 Ohms 100mW 0603 1%"
+			(at 312.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 312.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07680RL"
+			(at 312.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 312.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7b8f76-ff51-40a6-bbf6-ea2b20cd59bd")
+		)
+		(pin "2"
+			(uuid "44e00e7c-5b9d-4aed-8f20-87704b6a67b7")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Power_Symbols:Power_GND")
+		(at 325.12 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "826f3026-7176-4763-9e59-da2d55c48389")
+		(property "Reference" "#PWR036"
+			(at 325.12 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Power_GND"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad5c910a-8ac3-4eb0-b710-21f398a08b81")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Power_Symbols:Power_GND")
+		(at 325.12 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "865e419a-c3ab-4924-b7d1-b13ad49b05c6")
+		(property "Reference" "#PWR037"
+			(at 325.12 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Power_GND"
+			(at 325.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "82516b62-c1d6-4ff9-aa60-7bb2af146388")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 222.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93b45134-9392-44cb-a0cc-948078f063b7")
+		(property "Reference" "R37"
+			(at 41.402 220.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k 1%"
+			(at 47.752 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 42.672 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1333KL"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e00cd461-16ff-41bf-a9f6-3fb9d670f307")
+		)
+		(pin "2"
+			(uuid "b2f9d01c-8012-433c-82bc-913f29e86066")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Power_Symbols:Power_GND")
+		(at 325.12 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97505394-f5ef-4707-9906-ac10691e000d")
+		(property "Reference" "#PWR035"
+			(at 325.12 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Power_GND"
+			(at 325.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5e910074-573c-4116-a32c-c2d6f2a78204")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Diodes:SS0540_R1_00001")
+		(at 148.59 198.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0fb5079-37a5-44c4-96b9-6e80fd2ad351")
+		(property "Reference" "D9"
+			(at 144.78 207.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS0540_R1_00001"
+			(at 153.162 204.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_Diodes:SOD3816X135N"
+			(at 54.94 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS0520_SERIES.pdf"
+			(at -45.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers SURFACE MOUNT SCHOTTKY BARRIER"
+			(at 141.478 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at -245.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-SS0540_R1_00001"
+			(at -345.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SS0540_R1_00001?qs=sPbYRqrBIVn%2F%252BqoXj%2F1rpw%3D%3D"
+			(at -445.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at -545.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS0540_R1_00001"
+			(at -645.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Packaging" " SOD-123"
+			(at 138.684 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "249c97ca-1c0d-4c5a-96b7-e8e00a77f55f")
+		)
+		(pin "1"
+			(uuid "7ebeb456-199a-4c52-89c3-33b6a124723d")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2cc7b85-4b0c-48b1-9c5d-ac711a07fbc4")
+		(property "Reference" "R31"
+			(at 129.032 205.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180k 1%"
+			(at 135.382 203.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
+			(at 132.08 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/10W 180K ohm 1% 50ppm"
+			(at 132.08 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 132.08 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603FRE07180KL "
+			(at 132.08 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 132.08 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ded4118-ba26-4777-836e-094f3a849383")
+		)
+		(pin "2"
+			(uuid "0314937a-5bdf-4e28-958e-c00a6268b17c")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 130.81 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85ea040-ebda-4157-a768-c06fa9718e1d")
+		(property "Reference" "C7"
+			(at 242.316 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 242.57 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 131.7752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KB85PNL"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c8429f4-1070-479f-8cd0-4ea7d94560e9")
+		)
+		(pin "2"
+			(uuid "8765b269-3db5-4f59-9f01-089a62fbbc86")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 222.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf36d4dc-2e36-456a-9eec-f1321ef7ea9d")
+		(property "Reference" "R35"
+			(at 129.032 220.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k 1%"
+			(at 135.382 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 132.08 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 18 kOhms 100mW 0603 1% AEC-Q200"
+			(at 132.08 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 132.08 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1318KL"
+			(at 132.08 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 132.08 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a33ac0a-01c1-4bf1-b689-8c2589e34364")
+		)
+		(pin "2"
+			(uuid "29f72c93-1d65-45ee-8a2f-0e93806aa629")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b46d4b-87b6-4019-88b7-2bfd7457c4e6")
+		(property "Reference" "#PWR041"
+			(at 44.45 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd65f0bf-df73-4fdf-93d1-a5a373154bb6")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3083ea5-dde2-4a59-bdb6-8268b61bc279")
+		(property "Reference" "#PWR033"
+			(at 280.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0af2871-d956-47f8-be63-456072aa9aa7")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 325.12 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc5f25b-452a-42e6-a0d5-4f59db1bcef1")
+		(property "Reference" "C11"
+			(at 321.31 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15nF"
+			(at 329.184 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 326.0852 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e05d79e7-c1c0-4ffb-a30f-373a54d9cd68")
+		)
+		(pin "2"
+			(uuid "965aac43-b04b-4a65-a722-435fd519dd04")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0df0f75-830f-4758-a527-12a4cf62689d")
+		(property "Reference" "R36"
+			(at 41.402 205.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k 1%"
+			(at 47.752 203.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 42.672 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-1333KL"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fa7afb-1686-424f-889b-61f47ac64e52")
+		)
+		(pin "2"
+			(uuid "f64066f2-b952-440a-9df5-ecac4243c947")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_BridgeDRVR:UCC27211DR")
+		(at 209.55 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7f8db64-ec5d-402b-b108-a44275b1daf8")
+		(property "Reference" "IC3"
+			(at 221.742 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC27211DR"
+			(at 221.488 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_BridgeDRVR:SOIC127P600X175-8N"
+			(at 231.14 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/UCC27211"
+			(at 231.14 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "120V Boot, 4A Peak, High Frequency High-Side Low-Side Driver"
+			(at 222.758 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 231.14 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC27211DR"
+			(at 231.14 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27211DR?qs=tTIQDc3uNmWBcBevB2oGbw%3D%3D"
+			(at 231.14 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 231.14 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC27211DR"
+			(at 231.14 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "SOIC-8"
+			(at 209.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4474ea8e-46a5-4bee-88fe-0a68e7f579fd")
+		)
+		(pin "6"
+			(uuid "275f1abd-41da-48ac-a3de-512643205f37")
+		)
+		(pin "3"
+			(uuid "0720b4ed-b83d-489e-8724-5fe4a8ab9475")
+		)
+		(pin "4"
+			(uuid "8c2db67e-6002-468c-abde-07b215f30805")
+		)
+		(pin "1"
+			(uuid "95f3fffc-9a5f-48b3-b65d-95f94a55a113")
+		)
+		(pin "5"
+			(uuid "7974efd0-76b6-4239-8488-7132d8e280ee")
+		)
+		(pin "8"
+			(uuid "856b80c8-cf6b-4937-af63-8c37873f3f93")
+		)
+		(pin "7"
+			(uuid "412cc0d1-49f5-4540-8d91-5dcdede90679")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_BridgeDRVR:UCC27211DR")
+		(at 209.55 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbc4e37e-a6e5-49c5-a8d3-15b3513b28fa")
+		(property "Reference" "IC1"
+			(at 221.742 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC27211DR"
+			(at 221.488 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_BridgeDRVR:SOIC127P600X175-8N"
+			(at 231.14 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/UCC27211"
+			(at 231.14 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "120V Boot, 4A Peak, High Frequency High-Side Low-Side Driver"
+			(at 222.758 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 231.14 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC27211DR"
+			(at 231.14 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27211DR?qs=tTIQDc3uNmWBcBevB2oGbw%3D%3D"
+			(at 231.14 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 231.14 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC27211DR"
+			(at 231.14 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "SOIC-8"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5137d727-335e-4dbb-b40f-724b34a2cfd4")
+		)
+		(pin "6"
+			(uuid "14927c90-4253-4c67-b4d3-91a4690f977d")
+		)
+		(pin "3"
+			(uuid "4c320e0c-8f05-4151-8040-caaf0f400997")
+		)
+		(pin "4"
+			(uuid "10756256-9901-40f5-b4bc-16202e95fa5e")
+		)
+		(pin "1"
+			(uuid "dee9cbda-60ce-4ddc-a87b-42d9e147840a")
+		)
+		(pin "5"
+			(uuid "8a965dd5-fcd6-422b-9ef4-aee493a02343")
+		)
+		(pin "8"
+			(uuid "b94bd363-bcfc-469b-b4a9-031a35dcbf2e")
+		)
+		(pin "7"
+			(uuid "ea48a74b-b9d3-4ca5-af5a-022598fa911b")
+		)
+		(instances
+			(project ""
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "defaea03-322a-410a-a0c3-c3729e347c1f")
+		(property "Reference" "#PWR032"
+			(at 229.87 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86a2c2f-2710-429f-b2ae-a65f471a44b4")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaa7742a-ebda-4456-a35e-5fb223777018")
+		(property "Reference" "#PWR034"
+			(at 132.08 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c94522b7-595b-47cc-aafc-759ea7401f14")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 41.91 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed4da6ed-c10d-48ba-b730-5ba8ab8b3e8a")
+		(property "Reference" "C3"
+			(at 242.316 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 242.57 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 42.8752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KB85PNL"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c19027-17fc-4faa-807e-bb942d5a1389")
+		)
+		(pin "2"
+			(uuid "4e654ed7-434b-4f62-9763-d660216338f4")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 325.12 113.03 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f44bd6b6-2289-4a3b-9c53-462a5efa66c3")
+		(property "Reference" "C10"
+			(at 321.31 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15nF"
+			(at 329.184 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 326.0852 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e31c2cea-1570-4485-b5ad-5737cc66462d")
+		)
+		(pin "2"
+			(uuid "db330b77-a5c3-4483-8369-74bff6231702")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f515b58a-547b-423b-8047-af94b0db5bd9")
+		(property "Reference" "#PWR029"
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a5dbd9-3181-4592-8cb6-da9a1f865ef2")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_BridgeDRVR:UCC27211DR")
+		(at 209.55 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc167c00-8732-495b-97fd-11ad36614a5e")
+		(property "Reference" "IC2"
+			(at 221.742 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC27211DR"
+			(at 221.488 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_BridgeDRVR:SOIC127P600X175-8N"
+			(at 231.14 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/UCC27211"
+			(at 231.14 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "120V Boot, 4A Peak, High Frequency High-Side Low-Side Driver"
+			(at 222.758 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 231.14 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC27211DR"
+			(at 231.14 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27211DR?qs=tTIQDc3uNmWBcBevB2oGbw%3D%3D"
+			(at 231.14 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 231.14 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC27211DR"
+			(at 231.14 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "SOIC-8"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17a81e63-9c65-41d5-bfbd-47240238106a")
+		)
+		(pin "6"
+			(uuid "64a3bb54-5e16-413e-bf7c-83c4b5026213")
+		)
+		(pin "3"
+			(uuid "1c44476d-a171-4cb7-8dd3-09f710bb56c4")
+		)
+		(pin "4"
+			(uuid "10afb072-cb0b-4ee1-b1e4-743c6aef76a8")
+		)
+		(pin "1"
+			(uuid "7db98269-5542-46b9-82e4-79eda18d8d18")
+		)
+		(pin "5"
+			(uuid "8fe17066-8001-46dd-ba3f-a2609c6774cd")
+		)
+		(pin "8"
+			(uuid "dd563a90-8a23-495d-9a88-bec494dc8152")
+		)
+		(pin "7"
+			(uuid "a18f21b4-56b8-4edc-84ce-3134ba3cc0f4")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 83.82)
+		(size 22.86 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 167 167 1.0000)
+		)
+		(uuid "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4")
+		(property "Sheetname" "Half-Bridge_2"
+			(at 278.13 108.712 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.2381)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Half_Bridge.kicad_sch"
+			(at 279.654 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "G_H" input
+			(at 269.24 93.98 180)
+			(uuid "ca682e14-41d3-4497-821d-291b13f5ce6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G_L" input
+			(at 269.24 101.6 180)
+			(uuid "6b70d942-530b-406e-bfb7-ba0718defd87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IS" output
+			(at 292.1 101.6 0)
+			(uuid "49a2cbaa-7196-4ecf-bc5d-5ba5d0c14680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 292.1 92.71 0)
+			(uuid "ba1a4992-edea-4638-966d-a7ba4e057546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS" input
+			(at 269.24 97.79 180)
+			(uuid "c718ab22-842f-4ea6-a33d-3c8f023c33f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vshunt_B" input
+			(at 292.1 106.68 0)
+			(uuid "ba1a7874-48a0-4855-8956-a03af0c4038f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 39.37)
+		(size 22.86 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 167 167 1.0000)
+		)
+		(uuid "60c9f1ab-8310-4b41-87cd-18a1725e670c")
+		(property "Sheetname" "Half-Bridge_1"
+			(at 278.13 64.008 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.2381)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Half_Bridge.kicad_sch"
+			(at 279.654 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "G_H" input
+			(at 269.24 49.53 180)
+			(uuid "7b069069-294a-4701-b3e3-b8d17d5b2ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G_L" input
+			(at 269.24 57.15 180)
+			(uuid "af9f3bca-2342-47e5-91cf-5398db5a539c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IS" output
+			(at 292.1 57.15 0)
+			(uuid "7dc5469b-9714-4cae-a0e7-b7feb6bd50dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 292.1 48.26 0)
+			(uuid "cbaa6565-2517-4045-b813-bf4f4dd4ae8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS" input
+			(at 269.24 53.34 180)
+			(uuid "e2b19a40-b036-4bd7-9a97-7159c2cddd6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vshunt_B" input
+			(at 292.1 62.23 0)
+			(uuid "4a306152-8569-4579-844c-c57b516b2279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 128.27)
+		(size 22.86 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 167 167 1.0000)
+		)
+		(uuid "f138b3a8-ec69-4954-8088-e3c29779a6aa")
+		(property "Sheetname" "Half-Bridge_3"
+			(at 278.13 152.908 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.2381)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Half_Bridge.kicad_sch"
+			(at 279.4 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "G_H" input
+			(at 269.24 138.43 180)
+			(uuid "2df9527d-3e12-4a0c-a0bb-c4a457b54e17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G_L" input
+			(at 269.24 146.05 180)
+			(uuid "cf73db33-1763-4f0f-a2d9-6bbfde9e8179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IS" output
+			(at 292.1 146.05 0)
+			(uuid "c12e523c-f1ee-49a4-9ecf-945e992c5fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 292.1 135.89 0)
+			(uuid "a00de94b-bab2-4423-bca7-9449fd6d1a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS" input
+			(at 269.24 142.24 180)
+			(uuid "b2f8564c-37d6-4728-b90b-a385bca97086")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vshunt_B" input
+			(at 292.1 151.13 0)
+			(uuid "00d8ea47-1717-4c88-808f-739f354c8ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

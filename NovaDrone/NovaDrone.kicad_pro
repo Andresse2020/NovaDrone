@@ -411,6 +411,18 @@
     [
       "7036a814-0f41-4c6c-a077-a78d90a22423",
       "Root"
+    ],
+    [
+      "60c9f1ab-8310-4b41-87cd-18a1725e670c",
+      "Half-Bridge_1"
+    ],
+    [
+      "f138b3a8-ec69-4954-8088-e3c29779a6aa",
+      "Half-Bridge_3"
+    ],
+    [
+      "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4",
+      "Half-Bridge_2"
     ]
   ],
   "text_variables": {}
