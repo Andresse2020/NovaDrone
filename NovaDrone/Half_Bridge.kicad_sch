@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "527b3dab-76e9-4f76-9e65-c7dcb69bd350")
-		(property "Reference" "Q"
+		(property "Reference" "Q?"
 			(at 120.65 59.6899 0)
 			(effects
 				(font
@@ -3028,6 +3028,10 @@
 			(project "NovaDrone"
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/60c9f1ab-8310-4b41-87cd-18a1725e670c"
+					(reference "Q?")
 					(unit 1)
 				)
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/f138b3a8-ec69-4954-8088-e3c29779a6aa"
