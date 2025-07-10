@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3a0e90f5-ebca-4de5-8435-ee87e74c0dc1")
-	(paper "A5")
+	(paper "A2")
 	(title_block
 		(title "NovaDrone")
 		(date "2025-05-21")

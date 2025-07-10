@@ -423,6 +423,10 @@
     [
       "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4",
       "Half-Bridge_2"
+    ],
+    [
+      "480a7603-8487-4f1e-a6dc-719e11c8e32d",
+      "MCU"
     ]
   ],
   "text_variables": {}
