@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3a0e90f5-ebca-4de5-8435-ee87e74c0dc1")
-	(paper "A2")
+	(paper "A5")
 	(title_block
 		(title "NovaDrone")
 		(date "2025-05-21")
@@ -1542,6 +1542,12 @@
 		(uuid "125a8e11-34e6-4abc-9df7-dc8ef42e1c57")
 	)
 	(junction
+		(at 116.84 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c66cfe-d5d6-468c-bf08-64ced4f95ea1")
+	)
+	(junction
 		(at 116.84 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1690,6 +1696,16 @@
 			(type default)
 		)
 		(uuid "22a99809-5a3c-478f-9a4a-95365b016407")
+	)
+	(wire
+		(pts
+			(xy 116.84 24.13) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa74b03-6f51-4309-af3e-1290a15c35db")
 	)
 	(wire
 		(pts
@@ -2003,6 +2019,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 24.13) (xy 116.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb060de8-ea2b-4519-ad69-7962b3626947")
+	)
+	(wire
+		(pts
+			(xy 139.7 26.67) (xy 139.7 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba80651-ada0-4f7e-a018-87b75b4b65c7")
+	)
+	(wire
+		(pts
 			(xy 93.98 60.96) (xy 93.98 69.85)
 		)
 		(stroke
@@ -2013,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 26.67) (xy 116.84 30.48)
+			(xy 116.84 20.32) (xy 116.84 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2120,6 +2156,16 @@
 			(type default)
 		)
 		(uuid "eb5719e4-7251-4c3c-b100-e46af3012757")
+	)
+	(wire
+		(pts
+			(xy 139.7 24.13) (xy 132.08 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21c3b98-61d2-4c74-a201-d7b3a60713e7")
 	)
 	(label "Vshunt_Brut"
 		(at 93.98 73.66 0)
@@ -2276,6 +2322,109 @@
 				)
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/f138b3a8-ec69-4954-8088-e3c29779a6aa"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 24.13 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae35582-a9cb-4acd-9398-a5f601e05e85")
+		(property "Reference" "C21"
+			(at 128.016 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF 50V"
+			(at 128.27 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.08 25.0952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 2012"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL21B105KBFNNNE"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" " 0805 (2012 mm)"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d7146c1-7140-4dd1-9cdd-a3a3a755bc18")
+		)
+		(pin "2"
+			(uuid "641d7779-21a0-49da-8b5a-ccaa6d56b2c2")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/60c9f1ab-8310-4b41-87cd-18a1725e670c"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/f138b3a8-ec69-4954-8088-e3c29779a6aa"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3043,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "BassingaLib_Power_Symbols:Power")
-		(at 116.84 25.4 0)
+		(at 116.84 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3051,7 +3200,7 @@
 		(dnp no)
 		(uuid "638ed292-1e21-4a90-85c0-f4a4e770e864")
 		(property "Reference" "#PWR01"
-			(at 116.84 21.844 0)
+			(at 116.84 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3209,7 @@
 			)
 		)
 		(property "Value" "6S_Power"
-			(at 116.84 22.86 0)
+			(at 116.84 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3525,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 162.56 71.374 90)
 			(effects
 				(font
@@ -3949,6 +4098,80 @@
 				)
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/f138b3a8-ec69-4954-8088-e3c29779a6aa"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Power_Symbols:Power_GND")
+		(at 139.7 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eac2969f-c48a-4a94-9202-ec80227b0505")
+		(property "Reference" "#PWR061"
+			(at 139.7 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Power_GND"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9fba27fa-ff30-4ce0-a8a6-71ab55957bb1")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/60c9f1ab-8310-4b41-87cd-18a1725e670c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/f138b3a8-ec69-4954-8088-e3c29779a6aa"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
