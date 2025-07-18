@@ -3479,7 +3479,7 @@
 		)
 		(uuid "c2b603e8-1416-4b9b-a4ed-4e5688a0af6b")
 	)
-	(hierarchical_label "V10_Mesure"
+	(hierarchical_label "V12_Mesure"
 		(shape input)
 		(at 180.34 92.71 0)
 		(effects
@@ -3874,72 +3874,6 @@
 			(project "NovaDrone"
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/480a7603-8487-4f1e-a6dc-719e11c8e32d"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 264.16 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2082f292-6082-4ad4-aa3a-cef7db0be713")
-		(property "Reference" "#PWR067"
-			(at 264.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vref"
-			(at 264.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c0f92f9-f238-4bf7-982c-0176a267bd45")
-		)
-		(instances
-			(project "NovaDrone"
-				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/480a7603-8487-4f1e-a6dc-719e11c8e32d"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4495,6 +4429,72 @@
 			(project "NovaDrone"
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/480a7603-8487-4f1e-a6dc-719e11c8e32d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 264.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b9cd2a-e81b-4f09-b4b2-fabaa2479171")
+		(property "Reference" "#PWR067"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a3d800-aaca-4580-b664-304d44647e9a")
+		)
+		(instances
+			(project "NovaDrone"
+				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/480a7603-8487-4f1e-a6dc-719e11c8e32d"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
