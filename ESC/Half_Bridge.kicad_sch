@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6S_Power"
+		(property "Value" "+22V"
 			(at 104.14 16.51 0)
 			(effects
 				(font

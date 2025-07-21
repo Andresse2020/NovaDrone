@@ -3298,6 +3298,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 95.25) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9855b39a-2bc6-483d-8fe8-ec039fcba96c")
+	)
+	(wire
+		(pts
 			(xy 153.67 109.22) (xy 137.16 109.22)
 		)
 		(stroke
@@ -3415,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "c53bb0a7-f499-4969-b631-55786991557f")
-	)
-	(wire
-		(pts
-			(xy 223.52 95.25) (xy 223.52 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfbe3cb7-76c1-4ada-822d-a5e36a2f8061")
 	)
 	(wire
 		(pts
@@ -3730,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6S_Power"
+		(property "Value" "+22V"
 			(at 34.29 85.09 0)
 			(effects
 				(font
@@ -5060,7 +5060,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 223.52 91.44 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5068,7 +5068,7 @@
 		(dnp no)
 		(uuid "54ca86f9-2917-4cc2-b07f-5d7a609187e1")
 		(property "Reference" "R50"
-			(at 220.472 89.662 90)
+			(at 226.568 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5077,7 @@
 			)
 		)
 		(property "Value" "18k 1%"
-			(at 226.822 88.138 90)
+			(at 220.218 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5086,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 221.742 91.44 90)
+			(at 225.298 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a819577-daf7-42ef-ad02-e2a3935c5108")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR093"
 			(at 223.52 127.508 0)
 			(effects
 				(font
@@ -5335,7 +5335,7 @@
 		(instances
 			(project "ESC"
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/50e6b873-fcc8-4519-931d-a1e0dcbcbe76"
-					(reference "#PWR0100")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6S_Power"
+		(property "Value" "+22V"
 			(at 127 21.59 0)
 			(effects
 				(font
@@ -6463,7 +6463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6S_Power"
+		(property "Value" "+22V"
 			(at 223.52 76.2 0)
 			(effects
 				(font

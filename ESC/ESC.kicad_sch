@@ -3853,7 +3853,7 @@
 		)
 		(uuid "319889e0-cae2-4377-bd1b-ea1e5524df58")
 	)
-	(text_box "The voltage ragne from:\n\nOut : 0V to 6S_Power (22.2V0)\nPhase: 0V to 2.76V"
+	(text_box "The voltage ragne from:\n\nOut : 0V to +22V2\nPhase: 0V to 2.76V"
 		(exclude_from_sim no)
 		(at 318.77 374.65 0)
 		(size 38.1 11.43)
@@ -8661,7 +8661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6S_Power"
+		(property "Value" "+22V"
 			(at 180.34 343.662 0)
 			(effects
 				(font
