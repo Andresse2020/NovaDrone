@@ -2837,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 29.21) (xy 228.6 29.21)
+			(xy 228.6 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3074,16 +3074,6 @@
 			(type default)
 		)
 		(uuid "5850ba2c-4947-4750-a576-78ed4b78d9e9")
-	)
-	(wire
-		(pts
-			(xy 245.11 29.21) (xy 251.46 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9c04f3-406a-4fd7-81e8-e4f654c28017")
 	)
 	(wire
 		(pts
@@ -7187,102 +7177,6 @@
 			(project "ESC"
 				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/50e6b873-fcc8-4519-931d-a1e0dcbcbe76"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dce5605c-d405-422b-b40b-6e26ae5e8503")
-		(property "Reference" "R51"
-			(at 242.824 26.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R 1%"
-			(at 244.348 32.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 241.3 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/Yageo_06282023_ACseries-3224032.pdf"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 0 Ohms 100mW 0603 1% AEC-Q200 Standard Power Version"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-070RL"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "0603 (608mm)"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14e9476d-7310-48f3-bcc8-c516dfb04af0")
-		)
-		(pin "2"
-			(uuid "21f9bb98-ae45-4ed8-9d13-df761035c02c")
-		)
-		(instances
-			(project "ESC"
-				(path "/7036a814-0f41-4c6c-a077-a78d90a22423/50e6b873-fcc8-4519-931d-a1e0dcbcbe76"
-					(reference "R51")
 					(unit 1)
 				)
 			)
