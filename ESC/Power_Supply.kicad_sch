@@ -2660,10 +2660,28 @@
 		(uuid "05b8a00d-9e2b-4af0-b877-83feeaa70bdc")
 	)
 	(junction
+		(at 137.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f1d5e6-c01f-47fd-b5a6-1928c6f4eba3")
+	)
+	(junction
+		(at 123.19 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b45108a-f923-440b-8fa1-cb925c9ff1d3")
+	)
+	(junction
 		(at 137.16 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c471da5-244d-46e1-b6e2-55681bc53833")
+	)
+	(junction
+		(at 153.67 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2487e137-96f9-4d49-b3ab-de77a3e7012d")
 	)
 	(junction
 		(at 111.76 29.21)
@@ -2682,12 +2700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462940f5-81cf-4dc2-b855-b61ef0cd8c51")
-	)
-	(junction
-		(at 153.67 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494411ed-3210-4d27-aa64-b4a11488c4b2")
 	)
 	(junction
 		(at 97.79 53.34)
@@ -2726,6 +2738,12 @@
 		(uuid "aaa9a943-0b9b-467d-9cc3-2865bcad093b")
 	)
 	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acba6806-dee0-48e6-bc8e-e04c59e061b3")
+	)
+	(junction
 		(at 88.9 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2748,18 +2766,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c72f130d-b6a2-416d-97fe-444c336b8791")
-	)
-	(junction
-		(at 137.16 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c97627ee-d49e-49f2-910b-04034f08a1cb")
-	)
-	(junction
-		(at 123.19 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c988f44b-e85e-40e0-9205-55d9c7f4d36d")
 	)
 	(junction
 		(at 63.5 53.34)
@@ -2814,6 +2820,16 @@
 			(type default)
 		)
 		(uuid "0c5ce017-1e2f-42de-9406-cc445aeefb0c")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4a5879-70b3-4203-b08d-12812378cad3")
 	)
 	(wire
 		(pts
@@ -2877,16 +2893,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218e0cec-bc17-4da9-9245-65a84ef54e60")
-	)
-	(wire
-		(pts
 			(xy 88.9 160.02) (xy 88.9 156.21)
 		)
 		(stroke
@@ -2907,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 137.16 119.38)
+			(xy 137.16 123.19) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2947,13 +2953,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 153.67 109.22)
+			(xy 76.2 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a6dfc1d-4abe-4388-b8ca-4b9b578ad1f5")
+		(uuid "3a3475cf-4bc2-49b6-a786-1bd375c3db83")
 	)
 	(wire
 		(pts
@@ -2967,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 168.91 99.06)
+			(xy 168.91 105.41) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 107.95)
+			(xy 137.16 107.95) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 168.91 109.22)
+			(xy 153.67 120.65) (xy 168.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3307,13 +3313,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 153.67 99.06)
+			(xy 153.67 105.41) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96048a82-a483-40cf-ac04-e371fee19616")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96193fae-9276-4f6a-b266-79f71f23dbdc")
 	)
 	(wire
 		(pts
@@ -3337,13 +3353,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 137.16 109.22)
+			(xy 123.19 109.22) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a70ff1e-1f47-4c01-a529-74c07243d7a6")
+		(uuid "993666ed-7e9c-4160-897e-dee54614fb7c")
 	)
 	(wire
 		(pts
@@ -3427,13 +3443,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 123.19 109.22)
+			(xy 153.67 113.03) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c218e6bb-97bd-4051-af26-1cd239541ebe")
+		(uuid "c14aa93f-9c19-4b8c-a27d-755f75455f3d")
 	)
 	(wire
 		(pts
@@ -3444,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "c53bb0a7-f499-4969-b631-55786991557f")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceefb044-f736-47f8-8a5d-0c4d9ba51609")
 	)
 	(wire
 		(pts
@@ -3497,13 +3523,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 107.95)
+			(xy 137.16 120.65) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9b74aad-15ff-443d-a3d7-433c93bbcf56")
+		(uuid "db2ba10a-4099-4cc2-9b0f-8bf20fc99cb6")
 	)
 	(wire
 		(pts
@@ -3597,16 +3623,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77fbeda-1226-449c-9874-3ed7d9769733")
-	)
-	(wire
-		(pts
 			(xy 41.91 156.21) (xy 52.07 156.21)
 		)
 		(stroke
@@ -3617,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 107.95) (xy 168.91 109.22)
+			(xy 168.91 113.03) (xy 168.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3654,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "ffca2bb8-ab21-4ed0-89c3-b9603243c6d7")
+	)
+	(label "SW"
+		(at 78.74 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aa6ab39-9c55-4bd0-8b7b-6af460664747")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4255,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 115.57 0)
+		(at 137.16 114.3 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4264,7 +4290,7 @@
 		(dnp no)
 		(uuid "1d2ad0ee-eca8-4eae-8031-38d032debff0")
 		(property "Reference" "R49"
-			(at 134.112 113.792 90)
+			(at 134.112 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4299,7 @@
 			)
 		)
 		(property "Value" "18k 1%"
-			(at 140.462 112.268 90)
+			(at 140.462 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.382 115.57 90)
+			(at 135.382 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
-			(at 137.16 115.57 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 18 kOhms 100mW 0603 1% AEC-Q200"
-			(at 137.16 115.57 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4335,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 137.16 115.57 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4344,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0603FR-1318KL"
-			(at 137.16 115.57 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4353,7 @@
 			)
 		)
 		(property "Packaging" "0603 (608mm)"
-			(at 137.16 115.57 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4378,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 104.14 180)
+		(at 168.91 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4360,7 +4386,7 @@
 		(dnp no)
 		(uuid "1ee16a1f-0789-4603-b1ce-a350e2879205")
 		(property "Reference" "C48"
-			(at 172.974 101.092 0)
+			(at 172.974 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4394,7 @@
 			)
 		)
 		(property "Value" "22uF 25V"
-			(at 174.752 107.188 0)
+			(at 174.752 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4402,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 167.9448 100.33 0)
+			(at 167.9448 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4411,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
-			(at 168.91 104.14 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4420,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-10% 25V X7R 3 1210"
-			(at 168.91 104.14 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4429,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 168.91 104.14 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4438,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B226KAJNNNE"
-			(at 168.91 104.14 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4447,7 @@
 			)
 		)
 		(property "Packaging" "1210 (3225mm)"
-			(at 168.91 104.14 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6509,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 104.14 180)
+		(at 153.67 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6491,7 +6517,7 @@
 		(dnp no)
 		(uuid "aaf2f264-e233-48db-9fa9-779202ad35b9")
 		(property "Reference" "C47"
-			(at 157.734 101.092 0)
+			(at 157.734 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6525,7 @@
 			)
 		)
 		(property "Value" "22uF 25V"
-			(at 159.512 107.188 0)
+			(at 159.512 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6533,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 152.7048 100.33 0)
+			(at 152.7048 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
-			(at 153.67 104.14 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6551,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-10% 25V X7R 3 1210"
-			(at 153.67 104.14 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6560,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 153.67 104.14 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6569,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B226KAJNNNE"
-			(at 153.67 104.14 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6578,7 @@
 			)
 		)
 		(property "Packaging" "1210 (3225mm)"
-			(at 153.67 104.14 0)
+			(at 153.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
