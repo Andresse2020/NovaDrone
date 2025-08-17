@@ -3956,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pa_e_51_rohs.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/54/crf-937137.pdf"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current Sense Resistors - SMD 10 mOhms 3 Watts 1 % 50 ppm/C AEC-Q200"
+		(property "Description" "Current Sense Resistors - SMD 0.010 ohms 1% 75PPM"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "Bourns"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PA2512FKE7T0R01E"
+		(property "Manufacturer_Part_Number" "CRF2512-FZ-R010ELF"
 			(at 104.14 80.01 0)
 			(effects
 				(font
