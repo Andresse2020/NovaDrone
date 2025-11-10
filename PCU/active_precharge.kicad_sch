@@ -1,0 +1,61 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f1760594-4ac0-4127-ae93-aee11feb7786")
+	(paper "A4")
+	(title_block
+		(date "2025-05-21")
+		(rev "v1.0")
+		(company "BASSINGA Lab")
+	)
+	(lib_symbols)
+	(hierarchical_label "-Vbat"
+		(shape input)
+		(at 33.02 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "371d0fad-c6ae-466b-a8b1-6f187c387d90")
+	)
+	(hierarchical_label "-Vbat_Precharge"
+		(shape output)
+		(at 266.7 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "a25de18f-3a7e-4bae-9ba7-47964242f4f6")
+	)
+	(hierarchical_label "+Vbat_Precharge"
+		(shape output)
+		(at 266.7 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "a75b6717-8374-4a2c-945c-e5ba6ab12e72")
+	)
+	(hierarchical_label "+Vbat"
+		(shape input)
+		(at 33.02 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "f1e2beb1-3f8f-45a4-b757-8f3cbb9d8dee")
+	)
+)

@@ -619,8 +619,72 @@
       "ESC_1"
     ],
     [
+      "362488b5-dfc0-465d-a99d-e814e940c85c",
+      "ESC_2"
+    ],
+    [
+      "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4",
+      "Half-Bridge_2"
+    ],
+    [
+      "60c9f1ab-8310-4b41-87cd-18a1725e670c",
+      "Half-Bridge_1"
+    ],
+    [
+      "f138b3a8-ec69-4954-8088-e3c29779a6aa",
+      "Half-Bridge_3"
+    ],
+    [
+      "480a7603-8487-4f1e-a6dc-719e11c8e32d",
+      "MCU"
+    ],
+    [
+      "a7432b1b-6eaa-423a-992a-2d9e6ae4ddf3",
+      "ESC_3"
+    ],
+    [
+      "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4",
+      "Half-Bridge_2"
+    ],
+    [
+      "60c9f1ab-8310-4b41-87cd-18a1725e670c",
+      "Half-Bridge_1"
+    ],
+    [
+      "f138b3a8-ec69-4954-8088-e3c29779a6aa",
+      "Half-Bridge_3"
+    ],
+    [
+      "480a7603-8487-4f1e-a6dc-719e11c8e32d",
+      "MCU"
+    ],
+    [
+      "6b9609bd-c9c4-4b70-ab51-985256193ceb",
+      "ESC_4"
+    ],
+    [
+      "3d63b6fa-9b75-44ef-b487-19f1bfbe12f4",
+      "Half-Bridge_2"
+    ],
+    [
+      "60c9f1ab-8310-4b41-87cd-18a1725e670c",
+      "Half-Bridge_1"
+    ],
+    [
+      "f138b3a8-ec69-4954-8088-e3c29779a6aa",
+      "Half-Bridge_3"
+    ],
+    [
+      "480a7603-8487-4f1e-a6dc-719e11c8e32d",
+      "MCU"
+    ],
+    [
       "865a6e5d-acc7-4139-b0d6-c2d3647b963f",
-      "Power_Supply"
+      "HIGH PSU"
+    ],
+    [
+      "0aad7a0a-408b-4596-959e-c6df745f73d1",
+      "Active Precharge"
     ],
     [
       "480a7603-8487-4f1e-a6dc-719e11c8e32d",
