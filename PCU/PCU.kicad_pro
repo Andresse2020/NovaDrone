@@ -687,6 +687,14 @@
       "Active Precharge"
     ],
     [
+      "8122c3c1-3842-43f9-aad7-aa03fb26189b",
+      "Logic PSU"
+    ],
+    [
+      "31e7bfdf-cbff-41f3-959b-3543ff7e412e",
+      "Supervisor"
+    ],
+    [
       "480a7603-8487-4f1e-a6dc-719e11c8e32d",
       "MCU"
     ],

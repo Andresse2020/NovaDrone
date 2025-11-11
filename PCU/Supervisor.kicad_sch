@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "23c300ea-9e41-4ccc-a329-85f177c03d4d")
+	(paper "A4")
+	(title_block
+		(date "2025-05-21")
+		(rev "v1.0")
+		(company "BASSINGA Lab")
+	)
+	(lib_symbols)
+)
