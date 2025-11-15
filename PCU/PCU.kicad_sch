@@ -11,50 +11,43 @@
 		(company "BASSINGA Lab")
 	)
 	(lib_symbols
-		(symbol "BassinaLib_Connectors:S4B-PH-SM4-TB_LF__SN_"
+		(symbol "BassinaLib_Connectors:B4B-PH-K-S_LF__SN_"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 2.032 0)
+				(at 0 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "JST PH 4Pin"
-				(at -5.842 12.192 0)
+			(property "Value" "B4B-PH-K-S_LF__SN_"
+				(at -10.16 -8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BassinaLib_Connectors:S4B-PH-SM4-TB"
-				(at 16.51 -94.92 0)
+			(property "Footprint" "BassinaLib_Connectors:JST_B4B-PH-K-S_LF__SN_"
+				(at 0.508 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.fr/datasheet/2/564/JST_B4B_PH_SM4_TB_LF_SN_ePH-3481264.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PH SMT side entry shroud header 4 way JST PH Series, 2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 2A"
-				(at 4.318 -16.764 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,40 +55,181 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S4B-PH-SM4-TBLFSN?qs=QpmGXVUTftEzaH4PpGxkPQ%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 16.51 -694.92 0)
+			(property "MF" "JST Sales"
+				(at 0.762 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "S4B-PH-SM4-TB(LF)(SN)"
-				(at 16.51 -794.92 0)
+			(property "Description_1" "Connector Header Through Hole 4 position 0.079 (2.00mm)"
+				(at 0.508 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "S4B-PH-SM4-TB_LF__SN__0_0"
+			(property "Package" "None"
+				(at 0.508 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
+				(at 0.508 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0.508 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "B4B-PH-K-S(LF)(SN)"
+				(at 0.508 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0.762 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0.254 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B4B-PH-K-S_LF__SN__0_0"
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -3.175 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -5.08 8.89)
-					(end 5.08 -8.89)
+					(start -4.4847 -5.08)
+					(end 5.6753 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -105,8 +239,8 @@
 					)
 				)
 				(rectangle
-					(start -4.445 6.0325)
-					(end -2.8575 6.6675)
+					(start -4.445 4.7625)
+					(end -2.8575 5.3975)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -116,8 +250,8 @@
 					)
 				)
 				(rectangle
-					(start -4.445 3.4925)
-					(end -2.8575 4.1275)
+					(start -4.445 2.2225)
+					(end -2.8575 2.8575)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -127,8 +261,8 @@
 					)
 				)
 				(rectangle
-					(start -4.445 0.9525)
-					(end -2.8575 1.5875)
+					(start -4.445 -0.3175)
+					(end -2.8575 0.3175)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -138,8 +272,8 @@
 					)
 				)
 				(rectangle
-					(start -4.445 -1.5875)
-					(end -2.8575 -0.9525)
+					(start -4.445 -2.8575)
+					(end -2.8575 -2.2225)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -149,47 +283,9 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -6.35 0)
+					(at -10.16 5.08 0)
 					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -6.35 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S4B-PH-SM4-TB_LF__SN__1_0"
-				(pin passive line
-					(at -8.89 6.35 0)
-					(length 5.08)
-					(name ""
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -205,9 +301,9 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 3.81 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name ""
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -223,9 +319,9 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 1.27 0)
+					(at -10.16 0 0)
 					(length 5.08)
-					(name ""
+					(name "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -241,9 +337,9 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -1.27 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
-					(name ""
+					(name "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -261,7 +357,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BassinaLib_Connectors:XT30PW-M"
+		(symbol "BassinaLib_Connectors:XT60PW-M"
 			(pin_names
 				(offset 1.016)
 			)
@@ -269,7 +365,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -4.826 3.556 0)
+				(at -5.842 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -277,8 +373,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "XT30PW-M"
-				(at -9.144 -6.096 90)
+			(property "Value" "XT60PW-M"
+				(at -4.572 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -286,8 +382,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BassinaLib_Connectors:AMASS_XT30PW-M"
-				(at 2.54 -16.256 0)
+			(property "Footprint" "BassinaLib_Connectors:AMASS_XT60PW-M"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -315,7 +411,7 @@
 				)
 			)
 			(property "MF" "AMASS"
-				(at -6.858 -19.304 0)
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -324,8 +420,8 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-				(at -9.398 -18.542 0)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,8 +430,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at -4.572 -19.304 0)
+			(property "Package" "Package"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -345,7 +441,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at -8.382 -19.304 0)
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -354,8 +450,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-				(at 2.54 -16.256 0)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -364,8 +460,8 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 2.54 -16.256 0)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -374,8 +470,8 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.2"
-				(at -10.922 -19.304 0)
+			(property "PARTREV" "V1.2"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -384,8 +480,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-				(at 2.54 -16.256 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -394,8 +490,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "XT30PW-M"
-				(at -4.318 -16.51 0)
+			(property "MP" "XT60PW-M"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -404,8 +500,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-				(at 2.54 -16.256 0)
+			(property "Description_1" "Socket, DC supply, male, PIN: 2"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -414,8 +510,8 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Amass"
-				(at -6.858 -19.05 0)
+			(property "Availability" "In Stock"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -424,8 +520,8 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "Not in stock"
-				(at -5.334 -18.542 0)
+			(property "MANUFACTURER" "AMASS"
+				(at 2.54 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,20 +530,10 @@
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "XT30PW-M"
-				(at -7.366 -19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "XT30PW-M_0_0"
+			(symbol "XT60PW-M_0_0"
 				(polyline
 					(pts
-						(xy -7.62 2.54) (xy -1.27 2.54)
+						(xy -3.81 3.81) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -459,7 +545,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -5.08) (xy -7.62 2.54)
+						(xy -3.81 -3.81) (xy -3.81 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -470,8 +556,8 @@
 					)
 				)
 				(rectangle
-					(start -2.2225 -0.3175)
-					(end -0.635 0.3175)
+					(start 1.5875 0.9525)
+					(end 3.175 1.5875)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -481,8 +567,8 @@
 					)
 				)
 				(rectangle
-					(start -2.2225 -2.8575)
-					(end -0.635 -2.2225)
+					(start 1.5875 -1.5875)
+					(end 3.175 -0.9525)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -493,7 +579,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -7.62 -5.08)
+						(xy 2.54 -3.81) (xy -3.81 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -505,7 +591,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
+						(xy 3.81 2.54) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -517,7 +603,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 0)
+						(xy 3.81 2.54) (xy 3.81 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -529,7 +615,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -1.905 0)
+						(xy 3.81 1.27) (xy 1.905 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -541,7 +627,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -3.81)
+						(xy 3.81 1.27) (xy 3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -553,7 +639,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy -1.905 -2.54)
+						(xy 3.81 -1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -565,7 +651,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy -1.27 -5.08)
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -576,11 +662,11 @@
 					)
 				)
 			)
-			(symbol "XT30PW-M_1_0"
+			(symbol "XT60PW-M_1_0"
 				(pin power_in line
-					(at 5.08 0 180)
+					(at 8.89 1.27 180)
 					(length 5.08)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -596,9 +682,9 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -2.54 180)
+					(at 8.89 -1.27 180)
 					(length 5.08)
-					(name ""
+					(name "-"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -776,6 +862,258 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BassingaLib_TVS:SMBJ33CA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 9.398 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TVS 33V, 600W"
+				(at 6.35 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BassingaLib_TVS:DIONM5436X244N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir"
+				(at 1.27 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.44"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-SMBJ33CA"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ33CA?qs=d7fLapxX37Gs5v3ODWwxUA%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ33CA"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ33CA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 2.54) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 11.176 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1441,22 +1779,16 @@
 		(uuid "d76e1796-3a5b-4b73-9523-6e319ee29134")
 	)
 	(junction
-		(at 68.58 63.5)
+		(at 53.34 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad666721-88a1-40fc-aab1-b2ce8a16a16d")
+		(uuid "7b84b37a-a9cd-424f-9493-7852b4133d87")
 	)
 	(junction
-		(at 374.65 238.76)
+		(at 53.34 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3c84bb4-9968-49c2-b7a8-1897deb584d7")
-	)
-	(junction
-		(at 328.93 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2f3fe11-f55e-45c7-adaf-910db1f5d2e5")
+		(uuid "c88e6d33-4b87-4d29-8801-d0abae616d43")
 	)
 	(wire
 		(pts
@@ -1470,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 233.68) (xy 374.65 238.76)
+			(xy 374.65 233.68) (xy 374.65 242.57)
 		)
 		(stroke
 			(width 0)
@@ -1480,23 +1812,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 85.09 63.5)
+			(xy 252.73 91.44) (xy 252.73 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10d07fa6-c781-4203-91c8-657bfbed118d")
-	)
-	(wire
-		(pts
-			(xy 38.1 63.5) (xy 68.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130672ea-7f68-4ffe-92f4-1c718927cccd")
+		(uuid "13272b41-39b8-44a5-8cef-fc62aaed6744")
 	)
 	(wire
 		(pts
@@ -1530,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 231.14) (xy 381 231.14)
+			(xy 323.85 231.14) (xy 381 231.14)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1862,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 233.68) (xy 328.93 233.68)
+			(xy 231.14 109.22) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5e04ee-2d95-49f9-833d-b9b307e78c32")
+	)
+	(wire
+		(pts
+			(xy 323.85 233.68) (xy 328.93 233.68)
 		)
 		(stroke
 			(width 0)
@@ -1570,13 +1902,23 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 226.06) (xy 328.93 226.06)
+			(xy 323.85 226.06) (xy 328.93 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2dea9be1-c499-48b1-b678-906e7b64059e")
+	)
+	(wire
+		(pts
+			(xy 171.45 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ebb6cb-8414-43c0-ae55-f3ca882061fd")
 	)
 	(wire
 		(pts
@@ -1600,6 +1942,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 106.68) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f0f082-2234-429c-93b4-5f93f518821d")
+	)
+	(wire
+		(pts
 			(xy 365.76 35.56) (xy 384.81 35.56)
 		)
 		(stroke
@@ -1607,6 +1959,16 @@
 			(type default)
 		)
 		(uuid "35374c51-73ef-43db-b9dc-212a6123adbc")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369dcc67-1630-4a13-9e61-c36dd3309680")
 	)
 	(wire
 		(pts
@@ -1620,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 242.57) (xy 328.93 238.76)
+			(xy 328.93 233.68) (xy 328.93 242.57)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 214.63 62.23)
+			(xy 175.26 62.23) (xy 218.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1650,13 +2012,43 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 214.63 66.04)
+			(xy 175.26 66.04) (xy 218.44 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45e75415-4444-4e41-a294-f392d09eed02")
+	)
+	(wire
+		(pts
+			(xy 130.81 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51997b9d-8435-4d0c-9de0-05c1cc864e76")
+	)
+	(wire
+		(pts
+			(xy 171.45 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f7d31a-3ed4-4092-8cff-3cf815666278")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562d4c0a-b686-4d50-89ed-48c8e8948775")
 	)
 	(wire
 		(pts
@@ -1670,13 +2062,23 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 238.76) (xy 381 238.76)
+			(xy 247.65 91.44) (xy 247.65 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f4dd457-ad7c-4245-9157-9bff36ab622d")
+		(uuid "59407830-3d5d-4dca-ab77-9e3aadb13be2")
+	)
+	(wire
+		(pts
+			(xy 171.45 151.13) (xy 210.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6685c408-8eb8-4731-ab2b-03a550ea07c0")
 	)
 	(wire
 		(pts
@@ -1700,6 +2102,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 63.5) (xy 33.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b4831e-891b-4b17-b3b7-190051fa6ee9")
+	)
+	(wire
+		(pts
 			(xy 374.65 222.25) (xy 374.65 226.06)
 		)
 		(stroke
@@ -1707,6 +2119,26 @@
 			(type default)
 		)
 		(uuid "709c4c7f-666d-4c67-8806-e2d50595f517")
+	)
+	(wire
+		(pts
+			(xy 27.94 66.04) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725a7207-0e7d-4316-908e-f44b9c091fc6")
+	)
+	(wire
+		(pts
+			(xy 53.34 53.34) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ec1c58-724d-4c27-ade9-4b8db2f02a9b")
 	)
 	(wire
 		(pts
@@ -1720,13 +2152,23 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 242.57) (xy 374.65 238.76)
+			(xy 171.45 153.67) (xy 210.82 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d294b27-4a65-46ed-9f9d-7beea389f055")
+		(uuid "76d06bc8-3f85-4ade-87e7-27efcb5fe478")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 27.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cce6aa-e771-45a8-b741-4d7183341dd4")
 	)
 	(wire
 		(pts
@@ -1740,6 +2182,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 104.14) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8445bbf9-9668-4543-ab94-3e27e2d2c031")
+	)
+	(wire
+		(pts
 			(xy 365.76 80.01) (xy 384.81 80.01)
 		)
 		(stroke
@@ -1750,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 104.14) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9098b564-62a3-4737-aba7-e3ef05a1b98b")
+	)
+	(wire
+		(pts
 			(xy 365.76 121.92) (xy 384.81 121.92)
 		)
 		(stroke
@@ -1757,6 +2219,26 @@
 			(type default)
 		)
 		(uuid "9c81f031-a6b6-4a2e-9280-4a3c98b56ed4")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e27e5e7-5e72-4aa2-a341-2ccd700d69b8")
+	)
+	(wire
+		(pts
+			(xy 33.02 66.04) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc8fa34-74ea-45fe-9eb6-408c064f2451")
 	)
 	(wire
 		(pts
@@ -1800,6 +2282,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 91.44) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c382a601-a975-4741-9f56-ffd7411eb038")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c728089d-6900-44e7-bac2-007597991a72")
+	)
+	(wire
+		(pts
 			(xy 365.76 124.46) (xy 384.81 124.46)
 		)
 		(stroke
@@ -1820,27 +2322,37 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 66.04) (xy 85.09 66.04)
+			(xy 53.34 73.66) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d49bb8b9-fe8e-44e4-95b6-e85075fc5e76")
+		(uuid "ceb9a766-6769-4fb4-b023-202d24dfb5cb")
 	)
 	(wire
 		(pts
-			(xy 328.93 238.76) (xy 322.58 238.76)
+			(xy 33.02 76.2) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6702409-c83b-41fe-a3d4-95aa700e6d93")
+		(uuid "d7324b07-7391-4229-80ba-8e1b0ef7979f")
 	)
 	(wire
 		(pts
-			(xy 322.58 228.6) (xy 381 228.6)
+			(xy 250.19 91.44) (xy 250.19 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcea32e6-f2fa-4c11-9e83-a4dd4c040acb")
+	)
+	(wire
+		(pts
+			(xy 323.85 228.6) (xy 381 228.6)
 		)
 		(stroke
 			(width 0)
@@ -1880,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1000b59-661a-4b8b-b469-175b4ced83cd")
+	)
+	(wire
+		(pts
 			(xy 302.26 121.92) (xy 321.31 121.92)
 		)
 		(stroke
@@ -1890,13 +2412,13 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 233.68) (xy 328.93 238.76)
+			(xy 53.34 50.8) (xy 85.09 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8110f73-452c-4307-b421-f67e2f0e89bd")
+		(uuid "f92a302b-3762-45a8-af54-d6085579a035")
 	)
 	(label "CANL"
 		(at 373.38 203.2 180)
@@ -1919,7 +2441,7 @@
 		(uuid "20d9805c-26eb-4c35-8ec8-8ab028ed7d82")
 	)
 	(label "-Vbat"
-		(at 54.61 66.04 0)
+		(at 66.04 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +2482,7 @@
 		(uuid "5bd2861d-eaba-4a59-bd0e-db3b8d5c682c")
 	)
 	(label "+Vbat"
-		(at 54.61 63.5 0)
+		(at 66.04 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2064,7 +2586,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 68.58 63.5 0)
+		(at 53.34 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2073,7 +2595,7 @@
 		(fields_autoplaced yes)
 		(uuid "1de457fe-66e2-4d85-8b52-7fdd49d708b7")
 		(property "Reference" "#FLG01"
-			(at 68.58 61.595 0)
+			(at 53.34 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2604,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 68.58 58.42 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 63.5 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 63.5 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2630,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 68.58 63.5 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,6 +2645,171 @@
 			(project ""
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassinaLib_Connectors:B4B-PH-K-S_LF__SN_")
+		(at 313.69 231.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24479a98-8a11-4b00-af9a-4e6523359445")
+		(property "Reference" "J19"
+			(at 313.69 238.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B4B-PH-K-S_LF__SN_"
+			(at 313.69 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassinaLib_Connectors:JST_B4B-PH-K-S_LF__SN_"
+			(at 313.182 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 312.928 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole 4 position 0.079 (2.00mm)"
+			(at 313.182 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 313.182 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 313.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
+			(at 313.182 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
+			(at 313.182 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B4B-PH-K-S(LF)(SN)"
+			(at 313.182 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 312.928 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 313.436 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d14e31c2-d644-4017-8a72-7fac77322b29")
+		)
+		(pin "3"
+			(uuid "b43c9352-9e4b-42ae-8631-2d910236cc87")
+		)
+		(pin "2"
+			(uuid "d4ecb55e-f924-4731-bef8-9179c8c9691c")
+		)
+		(pin "1"
+			(uuid "00180ab9-c7d0-4732-be57-99877cb56a59")
+		)
+		(instances
+			(project ""
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -2189,119 +2876,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BassinaLib_Connectors:S4B-PH-SM4-TB_LF__SN_")
-		(at 389.89 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bc9f572-21a0-4e05-aba9-65207cd04b08")
-		(property "Reference" "J7"
-			(at 390.398 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST PH 4Pin"
-			(at 397.51 237.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BassinaLib_Connectors:S4B-PH-SM4-TB"
-			(at 406.4 327.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/564/JST_B4B_PH_SM4_TB_LF_SN_ePH-3481264.pdf"
-			(at 406.4 427.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PH SMT side entry shroud header 4 way JST PH Series, 2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 2A"
-			(at 394.208 249.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S4B-PH-SM4-TBLFSN?qs=QpmGXVUTftEzaH4PpGxkPQ%3D%3D"
-			(at 406.4 827.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 406.4 927.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S4B-PH-SM4-TB(LF)(SN)"
-			(at 406.4 1027.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "SH2"
-			(uuid "89090237-47af-4c98-af74-786ba32f0d0c")
-		)
-		(pin "1"
-			(uuid "11ee3452-9d9d-4278-b6b9-d97a357d1d32")
-		)
-		(pin "4"
-			(uuid "4441e2d0-d688-45e6-98f6-4257fdacce89")
-		)
-		(pin "2"
-			(uuid "62e84cc4-9c8d-4b00-a8a5-2a2acdb838f5")
-		)
-		(pin "SH1"
-			(uuid "c6b9fe27-eb1b-49e4-8ede-a66a9951bed9")
-		)
-		(pin "3"
-			(uuid "eaeeaa31-9a4e-440f-84fc-f4a460e1cb23")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2443,7 +3017,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55dc4591-4b0e-4456-b6b6-5b8523f8c0d5")
 		(property "Reference" "#PWR01"
 			(at 328.93 226.06 0)
@@ -2454,12 +3027,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Digital"
-			(at 328.93 217.17 0)
+		(property "Value" "+3.3V_Logic"
+			(at 323.596 217.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2496,6 +3070,128 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_TVS:SMBJ33CA")
+		(at 53.34 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5778893f-82ae-47a6-a00e-58973d5af6db")
+		(property "Reference" "D51"
+			(at 57.15 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS 33V, 600W"
+			(at 57.15 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BassingaLib_TVS:DIONM5436X244N"
+			(at 146.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf"
+			(at 246.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 33volts 5uA 11.3 Amps Bi-Dir"
+			(at 60.706 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at 446.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-SMBJ33CA"
+			(at 546.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ33CA?qs=d7fLapxX37Gs5v3ODWwxUA%3D%3D"
+			(at 646.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 746.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ33CA"
+			(at 846.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cab9c4a-9e5d-4ca7-93cd-c6cee2d5d882")
+		)
+		(pin "2"
+			(uuid "cd239076-b68d-4a7c-8422-174b98bed0c7")
+		)
+		(instances
+			(project ""
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -2601,32 +3297,33 @@
 		)
 	)
 	(symbol
-		(lib_id "BassinaLib_Connectors:XT30PW-M")
-		(at 33.02 63.5 0)
+		(lib_id "BassinaLib_Connectors:XT60PW-M")
+		(at 19.05 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "893c8b31-2575-4431-b267-f25642808f26")
+		(fields_autoplaced yes)
+		(uuid "7e95fd86-9264-408a-8185-f68467a1c0a9")
 		(property "Reference" "J1"
-			(at 28.702 55.118 0)
+			(at 19.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT30PW-M"
-			(at 29.21 58.42 0)
+		(property "Value" "XT60PW-M"
+			(at 19.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BassinaLib_Connectors:AMASS_XT30PW-M"
-			(at 35.56 79.756 0)
+		(property "Footprint" "BassinaLib_Connectors:AMASS_XT60PW-M"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +3333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 63.5 0)
+			(at 19.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +3342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 63.5 0)
+			(at 19.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +3351,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 26.162 82.804 0)
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 23.622 82.042 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,8 +3370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 28.448 82.804 0)
+		(property "Package" "Package"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +3381,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 24.638 82.804 0)
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,8 +3390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-			(at 35.56 79.756 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,8 +3400,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.56 79.756 0)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,8 +3410,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.2"
-			(at 22.098 82.804 0)
+		(property "PARTREV" "V1.2"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,8 +3420,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-			(at 35.56 79.756 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,8 +3430,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XT30PW-M"
-			(at 28.702 80.01 0)
+		(property "MP" "XT60PW-M"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,8 +3440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 35.56 79.756 0)
+		(property "Description_1" "Socket, DC supply, male, PIN: 2"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,8 +3450,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Amass"
-			(at 26.162 82.55 0)
+		(property "Availability" "In Stock"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,18 +3460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "Not in stock"
-			(at 27.686 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "XT30PW-M"
-			(at 25.654 82.804 0)
+		(property "MANUFACTURER" "AMASS"
+			(at 21.59 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,15 +3471,179 @@
 			)
 		)
 		(pin "N"
-			(uuid "6c1ab09c-4196-4e94-991c-d0c2254f2ff8")
+			(uuid "44499eaa-3538-4d42-8d7a-e356ec341f61")
 		)
 		(pin "P"
-			(uuid "0a298266-f226-4dc7-b84f-921cafff5283")
+			(uuid "56086549-0877-4b60-a225-8aa2d60829b7")
+		)
+		(instances
+			(project ""
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassinaLib_Connectors:B4B-PH-K-S_LF__SN_")
+		(at 391.16 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893af9c1-4777-4c4c-af2f-b73951341362")
+		(property "Reference" "J2"
+			(at 391.16 238.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B4B-PH-K-S_LF__SN_"
+			(at 391.16 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassinaLib_Connectors:JST_B4B-PH-K-S_LF__SN_"
+			(at 391.668 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 391.922 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole 4 position 0.079 (2.00mm)"
+			(at 391.668 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 391.668 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 391.16 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
+			(at 391.668 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
+			(at 391.668 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B4B-PH-K-S(LF)(SN)"
+			(at 391.668 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 391.922 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 391.414 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "71e26f55-c513-415a-a2ac-af05f1f04f31")
+		)
+		(pin "3"
+			(uuid "15fcde46-b19a-4478-9157-4afa2a1074af")
+		)
+		(pin "2"
+			(uuid "6f5c290c-614e-4b52-b37e-aa5c380e6ad5")
+		)
+		(pin "1"
+			(uuid "9dbb90d2-25d0-44c7-8fec-a0211a6d3709")
 		)
 		(instances
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2892,120 +3743,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BassinaLib_Connectors:S4B-PH-SM4-TB_LF__SN_")
-		(at 313.69 232.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ddf1aab-cef1-4cf5-a8ca-b2c162ce6120")
-		(property "Reference" "J2"
-			(at 313.182 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST PH 4Pin"
-			(at 306.07 237.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BassinaLib_Connectors:S4B-PH-SM4-TB"
-			(at 297.18 327.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/564/JST_B4B_PH_SM4_TB_LF_SN_ePH-3481264.pdf"
-			(at 297.18 427.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PH SMT side entry shroud header 4 way JST PH Series, 2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 2A"
-			(at 309.372 249.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S4B-PH-SM4-TBLFSN?qs=QpmGXVUTftEzaH4PpGxkPQ%3D%3D"
-			(at 297.18 827.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 297.18 927.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S4B-PH-SM4-TB(LF)(SN)"
-			(at 297.18 1027.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "SH2"
-			(uuid "6ef7ea96-d1f7-495b-b0a9-7d92fe487d5f")
-		)
-		(pin "1"
-			(uuid "7b5c6a90-d7dd-4f0f-994c-12d7266d6cd7")
-		)
-		(pin "4"
-			(uuid "1733f581-b089-45bd-aa1c-13d38cbcc4d9")
-		)
-		(pin "2"
-			(uuid "ff7815a6-f715-4e41-a2d9-b520e5d4d4ad")
-		)
-		(pin "SH1"
-			(uuid "3acc65db-6122-4df8-9a67-af01a5a71f2b")
-		)
-		(pin "3"
-			(uuid "045ff440-58bb-45c9-8768-5f5e5e4edc89")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3116,7 +3853,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d59e3e5b-f9bc-4149-b815-21584be00153")
 		(property "Reference" "#PWR03"
 			(at 374.65 226.06 0)
@@ -3127,12 +3863,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Digital"
-			(at 374.65 217.17 0)
+		(property "Value" "+3.3V_Logic"
+			(at 369.316 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3453,7 +4190,7 @@
 		)
 		(uuid "0aad7a0a-408b-4596-959e-c6df745f73d1")
 		(property "Sheetname" "Active Precharge"
-			(at 103.124 66.04 0)
+			(at 102.362 61.214 0)
 			(effects
 				(font
 					(size 3.81 3.81)
@@ -3464,7 +4201,7 @@
 			)
 		)
 		(property "Sheetfile" "active_precharge.kicad_sch"
-			(at 109.474 69.596 0)
+			(at 108.712 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +4230,7 @@
 			)
 		)
 		(pin "+Vbat" input
-			(at 85.09 63.5 180)
+			(at 85.09 50.8 180)
 			(uuid "dfe8561f-993e-4d3a-b72e-92dd7b9988a8")
 			(effects
 				(font
@@ -3503,8 +4240,38 @@
 			)
 		)
 		(pin "-Vbat" input
-			(at 85.09 66.04 180)
+			(at 85.09 76.2 180)
 			(uuid "95936334-74d3-4314-9bef-b178f8a3baa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mainBus_nFault" output
+			(at 128.27 91.44 270)
+			(uuid "d5af6f76-e54e-4f12-8288-d16eb68b4e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_mainBus" input
+			(at 130.81 91.44 270)
+			(uuid "b40b31a8-0c0c-4617-855b-438008961d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_Precharge" input
+			(at 133.35 91.44 270)
+			(uuid "2199c42e-5d1e-45bc-bb01-82bf4b182f8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +4303,7 @@
 		)
 		(uuid "31e7bfdf-cbff-41f3-959b-3543ff7e412e")
 		(property "Sheetname" "Supervisor"
-			(at 229.87 149.098 0)
+			(at 234.188 151.384 0)
 			(effects
 				(font
 					(size 3.81 3.81)
@@ -3547,12 +4314,112 @@
 			)
 		)
 		(property "Sheetfile" "Supervisor.kicad_sch"
-			(at 232.918 152.146 0)
+			(at 237.236 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "mainBus_nFault" input
+			(at 231.14 129.54 90)
+			(uuid "fde64560-5151-4101-a303-23d910877127")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vbat_Mesure" input
+			(at 210.82 146.05 180)
+			(uuid "5c11e43b-2403-472e-98c6-437732a84835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_mainBus" output
+			(at 233.68 129.54 90)
+			(uuid "d33e5655-1c59-427e-ae42-2ee4bb27b876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_Precharge" output
+			(at 236.22 129.54 90)
+			(uuid "0ef57b2f-f0bd-448a-bfbd-7ec61817c025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V5Logic_Mesure" input
+			(at 210.82 151.13 180)
+			(uuid "b8c721db-3550-4194-a3cf-38c577ab7e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V12Logic_Mesure" input
+			(at 210.82 148.59 180)
+			(uuid "e6a8e289-cc9c-46eb-b8c3-f7749ce5e845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V3.3_Mesure" input
+			(at 252.73 129.54 90)
+			(uuid "55b80ea8-18d5-483f-b3b2-0c8e94d86f8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vbus_Mesure" input
+			(at 250.19 129.54 90)
+			(uuid "f1aff497-17e4-4abd-991e-c42d6f96452d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3.3Logic_Mesure" input
+			(at 210.82 153.67 180)
+			(uuid "3a20979e-5ddb-4ae1-bb01-4efd712f9454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V12_Mesure" input
+			(at 247.65 129.54 90)
+			(uuid "124afa9f-2b13-405a-833f-02e9d59083e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3897,6 +4764,46 @@
 				(justify left)
 			)
 		)
+		(pin "V3.3Logic_Mesure" input
+			(at 171.45 153.67 0)
+			(uuid "cc7db5bf-d5ad-44f8-aa2e-0288fdf22d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vbat_Mesure" output
+			(at 171.45 146.05 0)
+			(uuid "a4c4c322-6fca-4588-9282-fccbbec8512b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V12Logic_Mesure" output
+			(at 171.45 148.59 0)
+			(uuid "55d5bfee-3fc5-4449-844c-a6bfe9398375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V5Logic_Mesure" output
+			(at 171.45 151.13 0)
+			(uuid "e038d04c-5ca5-4501-8fe5-19340704b693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
@@ -3906,7 +4813,7 @@
 		)
 	)
 	(sheet
-		(at 214.63 36.83)
+		(at 218.44 36.83)
 		(size 60.96 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3921,7 +4828,7 @@
 		)
 		(uuid "865a6e5d-acc7-4139-b0d6-c2d3647b963f")
 		(property "Sheetname" "HIGH PSU"
-			(at 239.268 65.024 0)
+			(at 243.078 65.024 0)
 			(effects
 				(font
 					(size 3.81 3.81)
@@ -3932,7 +4839,7 @@
 			)
 		)
 		(property "Sheetfile" "high_power_supply.kicad_sch"
-			(at 239.014 67.818 0)
+			(at 242.824 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4848,7 @@
 			)
 		)
 		(pin "-Vbat_Precharge" input
-			(at 214.63 66.04 180)
+			(at 218.44 66.04 180)
 			(uuid "674a8b5b-5069-4e05-9716-09275a151be6")
 			(effects
 				(font
@@ -3951,8 +4858,38 @@
 			)
 		)
 		(pin "+Vbat_Precharge" input
-			(at 214.63 62.23 180)
+			(at 218.44 62.23 180)
 			(uuid "900d22a3-e981-4d9d-bf3e-55ad7ee23743")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V12_Mesure" output
+			(at 247.65 91.44 270)
+			(uuid "9ab5f870-c579-47df-9d1d-a8afec18c1d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vbus_Mesure" output
+			(at 250.19 91.44 270)
+			(uuid "afe9d461-6c84-4de1-a3a8-13542be27c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V3.3_Mesure" output
+			(at 252.73 91.44 270)
+			(uuid "dff8f089-ddc4-48e1-8702-752c3275c27b")
 			(effects
 				(font
 					(size 1.27 1.27)

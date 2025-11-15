@@ -10,4 +10,125 @@
 		(company "BASSINGA Lab")
 	)
 	(lib_symbols)
+	(hierarchical_label "V12Logic_Mesure"
+		(shape input)
+		(at 22.86 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01b24b39-05ee-4ffb-8ee0-f855d685802e")
+	)
+	(hierarchical_label "Vbus_Mesure"
+		(shape input)
+		(at 21.59 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0540698a-e9dd-4a20-bfdd-000cad4ee64a")
+	)
+	(hierarchical_label "EN_mainBus"
+		(shape output)
+		(at 269.24 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22bb33f9-62c8-4b64-be8d-88aafd902f48")
+	)
+	(hierarchical_label "Vbat_Mesure"
+		(shape input)
+		(at 25.4 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c7e3fac-77ab-4c9a-a1a9-44d2c863fcef")
+	)
+	(hierarchical_label "V3.3_Mesure"
+		(shape input)
+		(at 22.86 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d97517e-32d7-4dc2-88a7-d965a6746b2d")
+	)
+	(hierarchical_label "V5Logic_Mesure"
+		(shape input)
+		(at 25.4 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76160e5a-abd7-48eb-bf45-6a632777ed90")
+	)
+	(hierarchical_label "V3.3Logic_Mesure"
+		(shape input)
+		(at 24.13 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a4f3513-b1ba-432d-94f4-02ee4b87657a")
+	)
+	(hierarchical_label "EN_Precharge"
+		(shape output)
+		(at 269.24 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caf0d277-980a-4195-845a-7a17d7a15fc6")
+	)
+	(hierarchical_label "mainBus_nFault"
+		(shape input)
+		(at 36.83 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4a44958-b7c3-4d94-9184-037203d832b4")
+	)
+	(hierarchical_label "V12_Mesure"
+		(shape input)
+		(at 21.59 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d91379d4-250e-40bf-a12c-17d6f67a1f3f")
+	)
+	(hierarchical_label "Vbat_Mesure"
+		(shape input)
+		(at 36.83 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5044d10-8b05-49ac-b9b3-f2a8b1b0cc5f")
+	)
 )

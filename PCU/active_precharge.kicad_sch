@@ -2605,18 +2605,6 @@
 		)
 		(uuid 623bc1f6-863a-4afa-aa59-7486ec461c95)
 	)
-	(rectangle
-		(start 29.21 128.27)
-		(end 80.01 191.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ee9dc767-caa6-4dc9-83f8-fcb3242f94a2)
-	)
 	(text "Fault status LED"
 		(exclude_from_sim no)
 		(at 239.268 98.298 0)
@@ -2628,18 +2616,6 @@
 			)
 		)
 		(uuid "38971f63-9b08-4410-ae0e-0d6a39d868e5")
-	)
-	(text "Battery Voltage \nMesurement"
-		(exclude_from_sim no)
-		(at 54.102 134.62 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "4e4984cd-bee6-4a9b-a39c-d6c4f37dae81")
 	)
 	(text_box "Precharge Current max = 1A"
 		(exclude_from_sim no)
@@ -2714,12 +2690,6 @@
 		(uuid "1bdef825-9b23-4857-9f32-badd24f1b377")
 	)
 	(junction
-		(at 55.88 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4aa6c621-cde4-4cc4-b549-fd976b131727")
-	)
-	(junction
 		(at 48.26 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2732,12 +2702,6 @@
 		(uuid "6934b87a-71be-48e9-99fb-081be51556d7")
 	)
 	(junction
-		(at 72.39 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79a72b9f-fcb5-4207-a0b9-b18319e662cc")
-	)
-	(junction
 		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2748,12 +2712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abe8e853-36af-4684-b299-2c9d688debba")
-	)
-	(junction
-		(at 72.39 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b07972f1-6913-4dee-9490-f14dd81dd85e")
 	)
 	(junction
 		(at 181.61 39.37)
@@ -2772,12 +2730,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd6ecee8-cb6d-4fa0-acef-54c475713849")
-	)
-	(junction
-		(at 72.39 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca7bca23-fb28-4f4b-a8e6-2a727328920b")
 	)
 	(junction
 		(at 78.74 71.12)
@@ -2839,17 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 55.88 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0392ad7a-a6ad-4c85-ae31-50bf12f33f44")
-	)
-	(wire
-		(pts
-			(xy 29.21 120.65) (xy 72.39 120.65)
+			(xy 67.31 120.65) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3119,26 +3061,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 181.61) (xy 72.39 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487029e4-4ed0-4c7b-8876-1653201833c0")
-	)
-	(wire
-		(pts
-			(xy 72.39 120.65) (xy 99.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9596e0-f2d8-499b-b9fa-14146733b296")
-	)
-	(wire
-		(pts
 			(xy 113.03 120.65) (xy 127 120.65)
 		)
 		(stroke
@@ -3289,16 +3211,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 181.61) (xy 72.39 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e838e99-de78-48d9-93f7-066059db20f0")
-	)
-	(wire
-		(pts
 			(xy 152.4 39.37) (xy 152.4 40.64)
 		)
 		(stroke
@@ -3369,16 +3281,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 34.29 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9258add3-659a-480a-bd6d-c746d5e61800")
-	)
-	(wire
-		(pts
 			(xy 151.13 93.98) (xy 151.13 97.79)
 		)
 		(stroke
@@ -3399,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 170.18) (xy 110.49 170.18)
+			(xy 102.87 170.18) (xy 110.49 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 88.9) (xy 48.26 88.9)
+			(xy 34.29 88.9) (xy 48.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3489,16 +3391,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 167.64) (xy 72.39 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3066dc-cf8f-4549-9bf2-d279e4e4ab28")
-	)
-	(wire
-		(pts
 			(xy 48.26 71.12) (xy 48.26 74.93)
 		)
 		(stroke
@@ -3516,16 +3408,6 @@
 			(type default)
 		)
 		(uuid "a21957c2-1a5e-4076-91a0-6838f33ca3bb")
-	)
-	(wire
-		(pts
-			(xy 55.88 177.8) (xy 55.88 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5885073-7561-41af-9b6a-946c51e1cd76")
 	)
 	(wire
 		(pts
@@ -3599,16 +3481,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 167.64) (xy 55.88 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4bc126-b980-41fe-ba4b-5a72814c8180")
-	)
-	(wire
-		(pts
 			(xy 114.3 38.1) (xy 142.24 38.1)
 		)
 		(stroke
@@ -3679,16 +3551,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 177.8) (xy 72.39 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cee7f052-d6a8-4c3e-bb17-465e5b78f0d0")
-	)
-	(wire
-		(pts
 			(xy 92.71 54.61) (xy 93.98 54.61)
 		)
 		(stroke
@@ -3709,16 +3571,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 72.39 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d6cc9e-9899-41d0-a4d1-e1f979c34350")
-	)
-	(wire
-		(pts
 			(xy 152.4 29.21) (xy 152.4 30.48)
 		)
 		(stroke
@@ -3726,16 +3578,6 @@
 			(type default)
 		)
 		(uuid "d7aa57a9-a66b-4cd0-85ec-e85c0c7a0d55")
-	)
-	(wire
-		(pts
-			(xy 55.88 149.86) (xy 55.88 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de70d640-dae1-4021-b285-b3027a344cb7")
 	)
 	(wire
 		(pts
@@ -3789,16 +3631,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 162.56) (xy 72.39 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d7e7d0-d41a-4b48-a900-0bdf81ffd3b8")
-	)
-	(wire
-		(pts
 			(xy 101.6 54.61) (xy 104.14 54.61)
 		)
 		(stroke
@@ -3839,16 +3671,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 165.1) (xy 55.88 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7199e8a-2353-4666-bd7d-3f57fcdd06f5")
-	)
-	(wire
-		(pts
 			(xy 120.65 46.99) (xy 120.65 62.23)
 		)
 		(stroke
@@ -3877,18 +3699,8 @@
 		)
 		(uuid "fd27415b-d60f-48ea-a3fe-000b2db6d2e7")
 	)
-	(label "mainBus_nFault"
-		(at 26.67 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11058409-5771-48e5-948d-23abfd79c62c")
-	)
 	(label "+Vbat"
-		(at 29.21 120.65 0)
+		(at 67.31 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3927,16 +3739,6 @@
 		)
 		(uuid "465e949d-61b5-4ff2-8562-e39f6fbcd5b9")
 	)
-	(label "+Vbat"
-		(at 30.48 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57cd4dff-8952-41aa-906a-86fab9b8633b")
-	)
 	(label "gate"
 		(at 166.37 39.37 0)
 		(effects
@@ -3957,16 +3759,6 @@
 		)
 		(uuid "65abe69f-2101-4de7-ad9a-623f24a3612a")
 	)
-	(label "EN_Precharge"
-		(at 92.71 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71ea0498-f521-42f0-835a-f48e367cb00b")
-	)
 	(label "mainBus_nFault"
 		(at 215.9 149.86 0)
 		(effects
@@ -3986,26 +3778,6 @@
 			(justify left bottom)
 		)
 		(uuid "af8e0dc5-be45-4bdb-ac1b-ca4fcda3aaf9")
-	)
-	(label "Vbat_Mesure"
-		(at 34.29 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5b5f651-eae9-4e99-8070-4c43bc03d302")
-	)
-	(label "EN_mainBus"
-		(at 64.77 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed11a396-2603-4a41-adf5-86034ce5d957")
 	)
 	(label "+Vbat_Precharge"
 		(at 199.39 120.65 180)
@@ -4028,6 +3800,28 @@
 			(justify right)
 		)
 		(uuid "371d0fad-c6ae-466b-a8b1-6f187c387d90")
+	)
+	(hierarchical_label "EN_Precharge"
+		(shape input)
+		(at 102.87 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65c9e7c7-4b71-4185-a067-0b8591e11c9c")
+	)
+	(hierarchical_label "EN_mainBus"
+		(shape input)
+		(at 64.77 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75d495ce-3352-479d-88f5-476edc3d4638")
 	)
 	(hierarchical_label "-Vbat_Precharge"
 		(shape output)
@@ -4052,6 +3846,17 @@
 			(justify left)
 		)
 		(uuid "a75b6717-8374-4a2c-945c-e5ba6ab12e72")
+	)
+	(hierarchical_label "mainBus_nFault"
+		(shape output)
+		(at 34.29 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1d124d2-e76c-4f05-a394-808307c811ff")
 	)
 	(hierarchical_label "+Vbat"
 		(shape input)
@@ -4971,229 +4776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BassingaLib_Diodes:SS0540_R1_00001")
-		(at 55.88 149.86 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c739268-4b41-44c9-aad6-bffbc283ad3e")
-		(property "Reference" "D49"
-			(at 59.69 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS0540_R1_00001"
-			(at 51.308 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BassingaLib_Diodes:SOD3816X135N"
-			(at 149.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS0520_SERIES.pdf"
-			(at 249.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Diodes & Rectifiers SURFACE MOUNT SCHOTTKY BARRIER"
-			(at 62.992 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at 449.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "241-SS0540_R1_00001"
-			(at 549.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SS0540_R1_00001?qs=sPbYRqrBIVn%2F%252BqoXj%2F1rpw%3D%3D"
-			(at 649.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 749.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SS0540_R1_00001"
-			(at 849.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Packaging" " SOD-123"
-			(at 65.786 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2dd5166-3da6-456b-b87a-36de1d0ef09e")
-		)
-		(pin "1"
-			(uuid "e44c5ab0-6e9d-4156-8886-c9023e722c49")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 55.88 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "409a65d1-461c-4e64-b616-a33edd6904d0")
-		(property "Reference" "C220"
-			(at 59.69 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15nF"
-			(at 51.816 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.9148 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
-			(at 55.88 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
-			(at 55.88 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 55.88 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10B153KB8NNNC"
-			(at 55.88 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "0603 (608mm)"
-			(at 55.88 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cecad2ba-a1b1-4adc-a22b-f6f23de149a4")
-		)
-		(pin "2"
-			(uuid "7e5356eb-6726-4358-8c13-72bc7fe6943e")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "C220")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BassingaLib_Mosfets:NTMFS5H600NLT1G")
 		(at 181.61 54.61 270)
 		(unit 1)
@@ -5778,73 +5360,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
 					(reference "R258")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 55.88 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d03ac5e-b385-445b-bbc8-de83e7d9933f")
-		(property "Reference" "#PWR0415"
-			(at 55.88 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_Logic"
-			(at 55.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80289646-9014-415b-9c9e-94688e41918a")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -6446,102 +5961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 72.39 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76a8bcdf-6763-44a2-bd01-8ea4eaa7dcb4")
-		(property "Reference" "R254"
-			(at 75.438 156.972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180k 1%"
-			(at 69.088 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.168 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thin Film Resistors - SMD 1/10W 180K ohm 1% 50ppm"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RT0603FRE07180KL "
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "0603 (608mm)"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66518004-cd8a-427f-9859-69965b3f6b7b")
-		)
-		(pin "2"
-			(uuid "f3c733e1-c961-4d20-bf02-a379a0947e3f")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "R254")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 90.17 0)
 		(mirror x)
@@ -7075,72 +6494,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
 					(reference "C222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 184.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95651388-f53b-455e-9e4e-2cd667040c07")
-		(property "Reference" "#PWR0414"
-			(at 72.39 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a37743b-36e6-4f69-a1d8-292f474a76e5")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -8090,102 +7443,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
 					(reference "R256")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d25d2d8e-36a8-4837-9b6e-6aa7f639ab1f")
-		(property "Reference" "R255"
-			(at 75.438 172.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18k 1%"
-			(at 69.088 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.168 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 18 kOhms 100mW 0603 1% AEC-Q200"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0603FR-1318KL"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "0603 (608mm)"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c019fcd-6b98-4f06-a519-950b470be38c")
-		)
-		(pin "2"
-			(uuid "cfeec8f3-12b0-4c65-a7fc-1a3a932da3c0")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "R255")
 					(unit 1)
 				)
 			)
