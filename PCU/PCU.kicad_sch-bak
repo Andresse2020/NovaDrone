@@ -357,6 +357,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BassinaLib_Connectors:MR30PW-FB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.334 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MR30PW-FB"
+				(at -5.334 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BassinaLib_Connectors:MR30PWFB"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
+				(at -8.382 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MR30PW-FB"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MR30PW-FB_1_1"
+				(rectangle
+					(start 0 5.08)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0 3.937)
+					(end 1.27 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 1.397)
+					(end 1.27 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BassinaLib_Connectors:XT60PW-M"
 			(pin_names
 				(offset 1.016)
@@ -1509,210 +1712,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3162,35 +3161,54 @@
 		(uuid "feb2d970-5438-4b17-b43d-d5f30756a34b")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 389.89 77.47 0)
-		(mirror y)
+		(lib_id "BassinaLib_Connectors:MR30PW-FB")
+		(at 388.62 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1442684a-bff3-473a-af00-621abb355ab2")
-		(property "Reference" "J5"
-			(at 391.16 76.1999 0)
+		(uuid "10b40730-aca6-4326-9aa7-b29f4b43ed42")
+		(property "Reference" "J4"
+			(at 392.43 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 380.492 70.866 0)
+		(property "Value" "MR30PW-FB"
+			(at 384.302 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm"
-			(at 389.89 77.47 0)
+		(property "Footprint" "BassinaLib_Connectors:MR30PWFB"
+			(at 407.67 129.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
+			(at 407.67 229.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
+			(at 380.238 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,37 +3216,69 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 389.89 77.47 0)
+		(property "Height" "5.3"
+			(at 407.67 429.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 389.89 77.47 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 407.67 529.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 407.67 629.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 407.67 729.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-FB"
+			(at 407.67 829.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "149fb431-76a7-44f7-aa68-71f68a740e7f")
+			(uuid "9d0436b1-8184-4c96-9485-eeac406b4a3d")
 		)
 		(pin "2"
-			(uuid "1c8c25ce-9645-4d7d-9bca-7bb2757d88ca")
+			(uuid "6a410b7f-5f3c-48cb-ad97-a6bcbcf7d37d")
 		)
 		(pin "3"
-			(uuid "a0367432-9396-4efa-b0cf-4fe3ab502a0b")
+			(uuid "212c80da-d6d6-4f64-b9a9-c31f7b708436")
 		)
 		(instances
-			(project "PCU"
+			(project ""
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3361,79 +3411,6 @@
 			(project ""
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 389.89 33.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27ab6077-fe15-4983-881e-53bf27a727a3")
-		(property "Reference" "J4"
-			(at 391.16 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 379.222 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm"
-			(at 389.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 389.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 389.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af19cece-71ce-4043-9403-6d567673416e")
-		)
-		(pin "2"
-			(uuid "dc02cd9e-8e2c-444e-94db-3dd9e6e1606e")
-		)
-		(pin "3"
-			(uuid "0e09d1f1-db18-477f-967a-75ed03c68780")
-		)
-		(instances
-			(project ""
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3946,35 +3923,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 389.89 124.46 0)
-		(mirror y)
+		(lib_id "BassinaLib_Connectors:MR30PW-FB")
+		(at 388.62 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "67cd6129-6984-4696-a0e5-b08daaabd441")
-		(property "Reference" "J6"
-			(at 391.16 123.1899 0)
+		(uuid "6e3ebe00-588c-4e52-98c2-c36bd3eb8f15")
+		(property "Reference" "J5"
+			(at 392.43 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 380.492 117.856 0)
+		(property "Value" "MR30PW-FB"
+			(at 384.302 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm"
-			(at 389.89 124.46 0)
+		(property "Footprint" "BassinaLib_Connectors:MR30PWFB"
+			(at 407.67 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
+			(at 407.67 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
+			(at 380.238 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,37 +3978,69 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 389.89 124.46 0)
+		(property "Height" "5.3"
+			(at 407.67 473.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 389.89 124.46 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 407.67 573.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 407.67 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 407.67 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-FB"
+			(at 407.67 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "89b6c744-f5e2-4d58-b189-bfef8ef8da8a")
+			(uuid "fcf03518-dc97-48ba-8b1c-06dfd9cf9d6c")
 		)
 		(pin "2"
-			(uuid "ab475039-bf02-440f-91df-d5823dc3c2e4")
+			(uuid "af5d2358-10b7-4858-b035-24b3048f2ae2")
 		)
 		(pin "3"
-			(uuid "0008bfdf-d70e-47ae-9b79-868bf2e5e05e")
+			(uuid "68008fa9-844f-423e-bb9a-4bcc332cba4f")
 		)
 		(instances
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4628,6 +4656,130 @@
 		)
 	)
 	(symbol
+		(lib_id "BassinaLib_Connectors:MR30PW-FB")
+		(at 388.62 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f78e565-9840-4b01-93bf-17b621a13ef0")
+		(property "Reference" "J7"
+			(at 392.43 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MR30PW-FB"
+			(at 384.302 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BassinaLib_Connectors:MR30PWFB"
+			(at 407.67 265.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
+			(at 407.67 365.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
+			(at 380.238 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 407.67 565.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 407.67 665.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 407.67 765.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 407.67 865.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-FB"
+			(at 407.67 965.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a58dabf-5647-4184-8a8b-c2019c6fb45c")
+		)
+		(pin "2"
+			(uuid "298680cd-c75e-4dd6-81e3-7b2be3b15159")
+		)
+		(pin "3"
+			(uuid "3ade1426-9b46-4617-a53e-fa05a8b0b292")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BassinaLib_Connectors:B4B-PH-K-S_LF__SN_")
 		(at 55.88 247.65 0)
 		(mirror y)
@@ -4889,79 +5041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 389.89 168.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d06c9940-06c3-4153-b145-b612dbb3a3c1")
-		(property "Reference" "J7"
-			(at 391.16 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 380.492 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm"
-			(at 389.89 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 389.89 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 389.89 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c918d32-fccf-41f8-92f4-81e291a7b102")
-		)
-		(pin "2"
-			(uuid "6f5f7c8b-fc13-4ac6-9fab-ab05451443d6")
-		)
-		(pin "3"
-			(uuid "2c9d3f8a-eeba-47dc-8703-7bcd33cd19c4")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 232.41 238.76 0)
 		(mirror y)
@@ -5154,6 +5233,130 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassinaLib_Connectors:MR30PW-FB")
+		(at 388.62 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f642297a-351e-4793-b09e-cf94205a344b")
+		(property "Reference" "J6"
+			(at 392.43 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MR30PW-FB"
+			(at 384.302 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BassinaLib_Connectors:MR30PWFB"
+			(at 407.67 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
+			(at 407.67 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
+			(at 380.238 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 407.67 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 407.67 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 407.67 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 407.67 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-FB"
+			(at 407.67 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "584613bc-e98c-4662-834f-33b3a947b129")
+		)
+		(pin "2"
+			(uuid "4ab945f9-84eb-432b-ad69-a709acb4c561")
+		)
+		(pin "3"
+			(uuid "3fd26d6d-634b-4123-b701-9d81a9778dfb")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
+					(reference "J6")
 					(unit 1)
 				)
 			)

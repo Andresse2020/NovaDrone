@@ -2890,7 +2890,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0462")
+					(reference "#PWR0463")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -3064,7 +3064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+		(property "Datasheet" "~"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 110.49 27.94 0)
 			(effects
 				(font
@@ -3212,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 2012"
+		(property "Description" "Unpolarized capacitor"
 			(at 110.49 27.94 0)
 			(effects
 				(font
@@ -3343,7 +3343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/pyu_re_105_rohs_l-3439885.pdf"
+		(property "Datasheet" "~"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -3352,7 +3352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 Ohms 100 mW 0603 1%"
+		(property "Description" "Resistor"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -3417,7 +3417,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R277")
+					(reference "R278")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/pyu_re_105_rohs_l-3439885.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 Ohms 100 mW 0603 1%"
+		(property "Description" "Resistor"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R270")
+					(reference "R271")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -3778,7 +3778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 173.99 39.37 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1 Ohms 100 m W 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 173.99 39.37 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R279")
+					(reference "R280")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -3919,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3993,7 +3993,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R273")
+					(reference "R274")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -4059,7 +4059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 33 Ohms 1/10 W 0603% 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -4133,7 +4133,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R268")
+					(reference "R269")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -4416,7 +4416,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0452")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -4680,7 +4680,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0476")
+					(reference "#PWR0477")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -4745,7 +4745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0454")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -5039,7 +5039,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0446")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -5149,7 +5149,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0456")
+					(reference "#PWR0457")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -5216,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+		(property "Datasheet" "~"
 			(at 52.07 148.59 0)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 52.07 148.59 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R265")
+					(reference "R266")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -5539,7 +5539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAF.pdf"
+		(property "Datasheet" "~"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1000pF X7R 0603 10% AEC-Q200 FLEXITE"
+		(property "Description" "Unpolarized capacitor"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -5689,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R272")
+					(reference "R273")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -5818,7 +5818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 2012"
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+		(property "Datasheet" "~"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -5966,7 +5966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -6097,7 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 39.37 0)
 			(effects
 				(font
@@ -6106,7 +6106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 33 Ohms 1/10 W 0603% 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 60.96 39.37 0)
 			(effects
 				(font
@@ -6171,7 +6171,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R267")
+					(reference "R268")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -6238,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-msma-automotive-smd-current-sense-resistor-metal-strip-data-sheet-elx1179.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Résistances détection de courant - CMS MSMA, 2512 SIZE, 3 Watt, 5 mohm, 50 PPM, MnCu Metal AEC-Q"
+		(property "Description" "Resistor"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R274")
+					(reference "R275")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -6422,7 +6422,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0460")
+					(reference "#PWR0461")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -6487,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAF.pdf"
+		(property "Datasheet" "~"
 			(at 209.55 110.49 0)
 			(effects
 				(font
@@ -6496,7 +6496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1000pF X7R 0603 10% AEC-Q200 FLEXITE"
+		(property "Description" "Unpolarized capacitor"
 			(at 209.55 110.49 0)
 			(effects
 				(font
@@ -6670,7 +6670,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0453")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7082,7 +7082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/pyu_re_105_rohs_l-3439885.pdf"
+		(property "Datasheet" "~"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -7091,7 +7091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 Ohms 100 mW 0603 1%"
+		(property "Description" "Resistor"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -7156,7 +7156,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R276")
+					(reference "R277")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7266,7 +7266,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0470")
+					(reference "#PWR0471")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7376,7 +7376,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0465")
+					(reference "#PWR0466")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7441,7 +7441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 15nF+/-10% 50V X7R 1 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "#PWR0474")
+					(reference "#PWR0475")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7800,7 +7800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "~"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 51 OHM 1% 50PPM 1/10W"
+		(property "Description" "Resistor"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -7874,7 +7874,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R280")
+					(reference "R281")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -7941,7 +7941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/pyu_re_105_rohs_l-3439885.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -7950,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 Ohms 100 mW 0603 1%"
+		(property "Description" "Resistor"
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -8015,7 +8015,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R269")
+					(reference "R270")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"
@@ -8082,7 +8082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+		(property "Datasheet" "~"
 			(at 52.07 163.83 0)
 			(effects
 				(font
@@ -8091,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 33 k Ohms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 52.07 163.83 0)
 			(effects
 				(font
@@ -8156,7 +8156,7 @@
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/494b743a-111c-4fa3-b995-745f7e454aad/f138b3a8-ec69-4954-8088-e3c29779a6aa"
-					(reference "R266")
+					(reference "R267")
 					(unit 1)
 				)
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/6b9609bd-c9c4-4b70-ab51-985256193ceb/3d63b6fa-9b75-44ef-b487-19f1bfbe12f4"

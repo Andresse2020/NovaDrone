@@ -230,6 +230,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BassingaLib_BJT:BC846B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BC846B"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BassingaLib_BJT:SOT95P230X110-3N"
+				(at 13.97 -101.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/314bb8ca05f516312c83706a24553056/bc846.pdf"
+				(at 13.97 -201.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar Transistors - BJT Bipolar Transistor, SOT-23, 65V, 100mA, NPN"
+				(at 9.144 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "637-BC846B"
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/BC846B?qs=OlC7AqGiEDkE%2F6m7W8uUrg%3D%3D"
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diotec"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BC846B"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BC846B_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BassingaLib_Diodes:SS0540_R1_00001"
 			(pin_names
 				(hide yes)
@@ -1998,202 +2255,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2546,8 +2607,8 @@
 		)
 	)
 	(rectangle
-		(start 213.36 88.9)
-		(end 267.97 161.29)
+		(start 213.36 85.09)
+		(end 267.97 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2559,7 +2620,7 @@
 	)
 	(text "Fault status LED"
 		(exclude_from_sim no)
-		(at 240.538 94.488 0)
+		(at 240.538 90.678 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2763,6 +2824,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 157.48) (xy 132.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c501ad-77e0-40c2-906e-e61c8b97b559")
+	)
+	(wire
+		(pts
 			(xy 99.06 137.16) (xy 99.06 144.78)
 		)
 		(stroke
@@ -2900,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "279c0e9a-e716-4dc5-be35-6812ea14bf5a")
-	)
-	(wire
-		(pts
-			(xy 256.54 151.13) (xy 256.54 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1e85a3-7251-41a9-8718-868ee69bffa8")
 	)
 	(wire
 		(pts
@@ -3073,16 +3134,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 170.18) (xy 124.46 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59550f4c-a6d2-41c4-8c48-d609b030d823")
-	)
-	(wire
-		(pts
 			(xy 137.16 120.65) (xy 149.86 120.65)
 		)
 		(stroke
@@ -3110,16 +3161,6 @@
 			(type default)
 		)
 		(uuid "5fbedc76-e8bd-4a36-9be1-bd51dbd50bb5")
-	)
-	(wire
-		(pts
-			(xy 256.54 138.43) (xy 256.54 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62314bd8-e627-41c5-82ca-18f1ce9f5f43")
 	)
 	(wire
 		(pts
@@ -3153,6 +3194,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 142.24) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d8bcc1-cc43-4a5a-94f7-6896bf9f91a4")
+	)
+	(wire
+		(pts
 			(xy 114.3 38.1) (xy 114.3 49.53)
 		)
 		(stroke
@@ -3173,7 +3224,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 146.05) (xy 234.95 146.05)
+			(xy 256.54 149.86) (xy 256.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74551343-a13c-49f2-9e13-c1b4b9f304d2")
+	)
+	(wire
+		(pts
+			(xy 217.17 142.24) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +3251,16 @@
 			(type default)
 		)
 		(uuid "8114962e-6400-4e87-be8b-e454c2b3c928")
+	)
+	(wire
+		(pts
+			(xy 132.08 177.8) (xy 132.08 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbec026-1c7c-4b66-9af5-220c80b8e0aa")
 	)
 	(wire
 		(pts
@@ -3233,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 119.38) (xy 256.54 123.19)
+			(xy 256.54 114.3) (xy 256.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3280,16 +3351,6 @@
 			(type default)
 		)
 		(uuid "9a2e3a86-1945-4925-9c3c-89868d790dee")
-	)
-	(wire
-		(pts
-			(xy 242.57 146.05) (xy 248.92 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be19838-d06f-4666-8081-0b819b1a242c")
 	)
 	(wire
 		(pts
@@ -3363,7 +3424,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 109.22) (xy 256.54 111.76)
+			(xy 256.54 105.41) (xy 256.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3410,6 +3471,16 @@
 			(type default)
 		)
 		(uuid "bfb211b6-e058-4857-bbb5-23c00632c8e2")
+	)
+	(wire
+		(pts
+			(xy 118.11 170.18) (xy 121.92 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2750853-3315-4dea-9e19-dc1259d93801")
 	)
 	(wire
 		(pts
@@ -3503,16 +3574,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 175.26) (xy 132.08 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1febe9a-6399-4f5c-84cd-833cf2dc7e5a")
-	)
-	(wire
-		(pts
 			(xy 113.03 140.97) (xy 113.03 144.78)
 		)
 		(stroke
@@ -3530,16 +3591,6 @@
 			(type default)
 		)
 		(uuid "e424a64e-2992-48ad-85fb-915d2554bb70")
-	)
-	(wire
-		(pts
-			(xy 132.08 157.48) (xy 132.08 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53439b8-e166-489c-af1e-6a80599d5773")
 	)
 	(wire
 		(pts
@@ -3611,6 +3662,16 @@
 		)
 		(uuid "fd27415b-d60f-48ea-a3fe-000b2db6d2e7")
 	)
+	(wire
+		(pts
+			(xy 256.54 132.08) (xy 256.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe59cc77-d6bf-4578-8cbd-c4500b0f88c9")
+	)
 	(label "+Vbat"
 		(at 67.31 120.65 0)
 		(effects
@@ -3672,7 +3733,7 @@
 		(uuid "65abe69f-2101-4de7-ad9a-623f24a3612a")
 	)
 	(label "mainBus_nFault"
-		(at 217.17 146.05 0)
+		(at 217.17 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3923,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog+Section&DocLang=English&PartCntxt=2-1879501-7&DocFormat=pdf"
+		(property "Datasheet" "~"
 			(at 168.91 120.65 0)
 			(effects
 				(font
@@ -3932,7 +3993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD CRGH2512 5% 12R 2W"
+		(property "Description" "Resistor"
 			(at 168.91 120.65 0)
 			(effects
 				(font
@@ -3985,7 +4046,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 115.57 0)
+		(at 256.54 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3993,7 +4054,7 @@
 		(dnp no)
 		(uuid "1daa55b6-ea93-4b2a-8f77-dda9fb4b8ac7")
 		(property "Reference" "R236"
-			(at 260.35 117.348 90)
+			(at 260.35 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4063,7 @@
 			)
 		)
 		(property "Value" "2k 1%"
-			(at 252.984 118.364 90)
+			(at 252.984 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4072,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.762 115.57 90)
+			(at 254.762 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,8 +4080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
-			(at 256.54 115.57 0)
+		(property "Datasheet" "~"
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,8 +4089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 2 kOhms 100 mW 0603 1%"
-			(at 256.54 115.57 0)
+		(property "Description" "Resistor"
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4099,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 256.54 115.57 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4108,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RE0603FRE072KL"
-			(at 256.54 115.57 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4117,7 @@
 			)
 		)
 		(property "Packaging" "0603 (608mm)"
-			(at 256.54 115.57 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -4125,7 +4186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -4177,6 +4238,131 @@
 		)
 	)
 	(symbol
+		(lib_id "BassingaLib_BJT:BC846B")
+		(at 246.38 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b37f4f0-2e9a-4b04-89f5-33a82fef5d2e")
+		(property "Reference" "Q27"
+			(at 260.35 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846B"
+			(at 260.35 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BassingaLib_BJT:SOT95P230X110-3N"
+			(at 260.35 243.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/314bb8ca05f516312c83706a24553056/bc846.pdf"
+			(at 260.35 343.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar Transistors - BJT Bipolar Transistor, SOT-23, 65V, 100mA, NPN"
+			(at 255.524 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 260.35 543.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BC846B"
+			(at 260.35 643.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/BC846B?qs=OlC7AqGiEDkE%2F6m7W8uUrg%3D%3D"
+			(at 260.35 743.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec"
+			(at 260.35 843.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC846B"
+			(at 260.35 943.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fb82838-7cd5-4284-b414-8c4a8225d3b3")
+		)
+		(pin "1"
+			(uuid "4579ae08-0adf-494f-a450-7b8786f45055")
+		)
+		(pin "3"
+			(uuid "ebbeae4c-5a9c-4952-88eb-9323d4800133")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
+					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 44.45 0)
 		(unit 1)
@@ -4212,7 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "~"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -4221,7 +4407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 1K ohm 1% 1/10W"
+		(property "Description" "Resistor"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -4375,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog+Section&DocLang=English&PartCntxt=2-1879501-7&DocFormat=pdf"
+		(property "Datasheet" "~"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -4384,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD CRGH2512 5% 12R 2W"
+		(property "Description" "Resistor"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -4437,7 +4623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 153.67 0)
+		(at 256.54 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4446,7 +4632,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a0347c2-6307-490d-a7de-1458135481d3")
 		(property "Reference" "#PWR0389"
-			(at 256.54 160.02 0)
+			(at 256.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 158.75 0)
+			(at 256.54 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 153.67 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 153.67 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 153.67 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
+		(property "Datasheet" "~"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -4546,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 2 kOhms 100 mW 0603 1%"
+		(property "Description" "Resistor"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -4839,7 +5025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-AC_51_RoHS_L_11.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -4848,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 6.8 kOhms 1/10 W 75 V 1% 0603 100 PPM / C - 55 C / + 155 C AEC-Q200"
+		(property "Description" "Resistor"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -4935,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-AT_51_RoHS_L_6.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 133.35 0)
 			(effects
 				(font
@@ -4944,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 100 Kohm 1% Tol. AEC-Q200"
+		(property "Description" "Resistor"
 			(at 99.06 133.35 0)
 			(effects
 				(font
@@ -5031,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "~"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -5040,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 1K ohm 1% 1/10W"
+		(property "Description" "Resistor"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -5127,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "~"
 			(at 152.4 44.45 0)
 			(effects
 				(font
@@ -5136,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 1K ohm 1% 1/10W"
+		(property "Description" "Resistor"
 			(at 152.4 44.45 0)
 			(effects
 				(font
@@ -5189,7 +5375,7 @@
 	)
 	(symbol
 		(lib_id "BassinaLib_LEDs:APHD1608LSURCK")
-		(at 256.54 138.43 270)
+		(at 256.54 132.08 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5199,7 +5385,7 @@
 		(fields_autoplaced yes)
 		(uuid "61b8ff3c-a32b-4f82-8362-51e474533ad4")
 		(property "Reference" "LED16"
-			(at 252.73 129.5399 90)
+			(at 252.73 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5394,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 252.73 132.0799 90)
+			(at 252.73 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5403,7 @@
 			)
 		)
 		(property "Footprint" "BassinaLib_LEDs:LEDM168X80N"
-			(at 162.89 125.73 0)
+			(at 162.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
-			(at 62.89 125.73 0)
+			(at 62.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5423,7 @@
 			)
 		)
 		(property "Description" "Single Colour LEDs 0603 Dome Lens LED Red- 630nm, 1.75 V, 2 mA, 75 mW"
-			(at 249.682 131.318 0)
+			(at 249.682 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5432,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at -137.11 125.73 0)
+			(at -137.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5442,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kingbright"
-			(at -437.11 125.73 0)
+			(at -437.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5452,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "APHD1608LSURCK"
-			(at -537.11 125.73 0)
+			(at -537.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -5333,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 63V X7R 3 1210"
+		(property "Description" "Unpolarized capacitor"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -5626,7 +5812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -5635,7 +5821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 2012"
+		(property "Description" "Unpolarized capacitor"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -5688,7 +5874,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 146.05 90)
+		(at 238.76 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5696,7 +5882,7 @@
 		(dnp no)
 		(uuid "70dd9da9-cb86-401f-b4b8-ac9f70580e22")
 		(property "Reference" "R235"
-			(at 241.046 143.256 90)
+			(at 241.046 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5891,7 @@
 			)
 		)
 		(property "Value" "2k 1%"
-			(at 241.554 149.606 90)
+			(at 241.554 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5900,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 147.828 90)
+			(at 238.76 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,8 +5908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
-			(at 238.76 146.05 0)
+		(property "Datasheet" "~"
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,8 +5917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 2 kOhms 100 mW 0603 1%"
-			(at 238.76 146.05 0)
+		(property "Description" "Resistor"
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5927,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 238.76 146.05 0)
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5936,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RE0603FRE072KL"
-			(at 238.76 146.05 0)
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5945,7 @@
 			)
 		)
 		(property "Packaging" "0603 (608mm)"
-			(at 238.76 146.05 0)
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "~"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -5826,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 220nF+/-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -5913,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-AT_51_RoHS_L_6.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -5922,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 100 Kohm 1% Tol. AEC-Q200"
+		(property "Description" "Resistor"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -6007,7 +6193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -6016,7 +6202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 63V X7R 3 1210"
+		(property "Description" "Unpolarized capacitor"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -6276,6 +6462,131 @@
 		)
 	)
 	(symbol
+		(lib_id "BassingaLib_BJT:BC846B")
+		(at 121.92 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25116d5-f306-4be4-8f0d-a2a309eeacce")
+		(property "Reference" "Q21"
+			(at 135.89 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846B"
+			(at 135.89 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BassingaLib_BJT:SOT95P230X110-3N"
+			(at 135.89 271.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/314bb8ca05f516312c83706a24553056/bc846.pdf"
+			(at 135.89 371.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar Transistors - BJT Bipolar Transistor, SOT-23, 65V, 100mA, NPN"
+			(at 131.064 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 135.89 571.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BC846B"
+			(at 135.89 671.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/BC846B?qs=OlC7AqGiEDkE%2F6m7W8uUrg%3D%3D"
+			(at 135.89 771.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec"
+			(at 135.89 871.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC846B"
+			(at 135.89 971.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1716aab-d01a-4324-b316-faacae14d6da")
+		)
+		(pin "1"
+			(uuid "8217697f-ae8c-4a3f-82b8-8f2653838211")
+		)
+		(pin "3"
+			(uuid "9f095c69-72fb-40c4-8e7c-55759d261cf6")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 58.42 0)
 		(mirror y)
@@ -6343,7 +6654,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 256.54 109.22 0)
+		(at 256.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6351,7 +6662,7 @@
 		(dnp no)
 		(uuid "ac019c39-31e3-4ab6-a5e0-600703660104")
 		(property "Reference" "#PWR0388"
-			(at 256.54 113.03 0)
+			(at 256.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6671,7 @@
 			)
 		)
 		(property "Value" "+3.3V_Logic"
-			(at 250.952 104.648 0)
+			(at 250.952 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 109.22 0)
+			(at 256.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 109.22 0)
+			(at 256.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 256.54 109.22 0)
+			(at 256.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,206 +6779,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
 					(reference "#PWR0380")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN")
-		(at 254 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1732e88-521d-47f6-8a24-b304e611ec00")
-		(property "Reference" "Q27"
-			(at 259.08 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NPN"
-			(at 259.08 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 259.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc846.pdf"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar Transistors - BJT BJT, SOT-23, 65V, 100mA, NPN"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC846B"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "SOT-23"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "2b99d4d7-0745-4455-b72e-4dba3d999ed2")
-		)
-		(pin "B"
-			(uuid "c09b5648-5305-42ed-a9d8-e05e1010a433")
-		)
-		(pin "C"
-			(uuid "53a2e5b4-2f62-468d-a838-65913483792a")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "Q27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN")
-		(at 129.54 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b588fc4f-bd6c-4076-8220-7569e1cb8e14")
-		(property "Reference" "Q21"
-			(at 134.62 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NPN"
-			(at 134.62 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc846.pdf"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar Transistors - BJT BJT, SOT-23, 65V, 100mA, NPN"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC846B"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "SOT-23"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "867e9355-b534-4399-a997-b446307ce426")
-		)
-		(pin "B"
-			(uuid "5886d2bb-17d2-4c09-9f08-90d159d81647")
-		)
-		(pin "C"
-			(uuid "91c9172c-b02c-4940-9bbe-a364ec88705f")
-		)
-		(instances
-			(project ""
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/0aad7a0a-408b-4596-959e-c6df745f73d1"
-					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-AF_51_RoHS_L_9.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -7069,7 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 9.53kOhms 1/10W 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -7156,7 +7267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+		(property "Datasheet" "~"
 			(at 152.4 34.29 0)
 			(effects
 				(font
@@ -7165,7 +7276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 1K ohm 1% 1/10W"
+		(property "Description" "Resistor"
 			(at 152.4 34.29 0)
 			(effects
 				(font
@@ -7252,7 +7363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -7261,7 +7372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD General Purpose Chip Resistor 0603, 5.62kOhms, 1%, 1/10W"
+		(property "Description" "Resistor"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -7612,7 +7723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 153.67 0)
 			(effects
 				(font
@@ -7621,7 +7732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200"
+		(property "Description" "Resistor"
 			(at 132.08 153.67 0)
 			(effects
 				(font
@@ -7774,7 +7885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 134.62 0)
 			(effects
 				(font
@@ -7783,7 +7894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 120 Ohms 100 mW 0603 1% AEC-Q200 Standard Power Version"
+		(property "Description" "Resistor"
 			(at 132.08 134.62 0)
 			(effects
 				(font
