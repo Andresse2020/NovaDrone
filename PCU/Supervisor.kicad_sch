@@ -2579,6 +2579,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BassingaLib_Button:TS04-66-43-BK-260-SMT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -12.446 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TS04-66-43-BK-260-SMT"
+				(at -12.446 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BassingaLib_Button:TS046643BK260SMT"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
+				(at 1.524 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.5"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "179-TS046643BK260SMT"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS04-66-43-BK-260-SMT?qs=A6eO%252BMLsxmRRNbMeRTdGlg%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TS04-66-43-BK-260-SMT"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TS04-66-43-BK-260-SMT_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.27) (xy 2.286 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS04-66-43-BK-260-SMT_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BassingaLib_ESD_Protection:ECMF2-40A100N6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5133,10 +5382,22 @@
 		(uuid "270ab916-eb96-4394-8e9e-5c712d724ae3")
 	)
 	(junction
+		(at 54.61 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28538d2a-1307-483b-9802-3c0d9fa16483")
+	)
+	(junction
 		(at 356.87 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2945cf5a-55ef-4515-b4aa-f9b54f9466a3")
+	)
+	(junction
+		(at 38.1 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9d79f2-e9c3-4d03-9be0-7c4ccebdad94")
 	)
 	(junction
 		(at 349.25 121.92)
@@ -5149,6 +5410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50615cbb-8a7e-4349-a961-a8245c28a855")
+	)
+	(junction
+		(at 58.42 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5af7e361-bc44-43f2-a3b1-7e23ea13e472")
 	)
 	(junction
 		(at 128.27 246.38)
@@ -5241,6 +5508,12 @@
 		(uuid "d0cb765c-63c9-4a26-9434-84d4c3a24c5d")
 	)
 	(junction
+		(at 38.1 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4744e28-f52b-4066-a8c6-9bdf9410f3de")
+	)
+	(junction
 		(at 181.61 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5251,6 +5524,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d70d6407-83df-43b8-a4d7-56741a1e7f72")
+	)
+	(junction
+		(at 54.61 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f811b6fa-adc3-4ebf-9753-c35556da491d")
 	)
 	(junction
 		(at 139.7 246.38)
@@ -5271,10 +5550,6 @@
 	(no_connect
 		(at 119.38 175.26)
 		(uuid "1ea47d29-5150-49bd-b665-960b4d4827ac")
-	)
-	(no_connect
-		(at 119.38 195.58)
-		(uuid "5a571540-4f33-4b31-b92b-ec860a0e5cea")
 	)
 	(no_connect
 		(at 143.51 209.55)
@@ -5311,6 +5586,16 @@
 	(no_connect
 		(at 334.01 50.8)
 		(uuid "e3fb974c-d9d7-47b5-b347-19e2b5ed159a")
+	)
+	(wire
+		(pts
+			(xy 38.1 135.89) (xy 38.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cfddcf-1114-4387-b727-9bc0ea68e088")
 	)
 	(wire
 		(pts
@@ -5384,6 +5669,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 135.89) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07289c01-cc12-4621-a916-e208b82c1b1d")
+	)
+	(wire
+		(pts
 			(xy 48.26 218.44) (xy 55.88 218.44)
 		)
 		(stroke
@@ -5451,6 +5746,16 @@
 			(type default)
 		)
 		(uuid "0d650143-deb0-4a5b-bc90-82fbab38d30d")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 41.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f03aa75-bace-4437-81a2-8d922a5807ba")
 	)
 	(wire
 		(pts
@@ -5594,6 +5899,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 198.12) (xy 109.22 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eccf0a7-dd54-40a4-b525-0eb72a6cb62a")
+	)
+	(wire
+		(pts
 			(xy 81.28 182.88) (xy 119.38 182.88)
 		)
 		(stroke
@@ -5611,6 +5926,16 @@
 			(type default)
 		)
 		(uuid "24ec17c8-f5d1-437e-9959-b7b544f7477b")
+	)
+	(wire
+		(pts
+			(xy 58.42 143.51) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e4d035-2837-48ab-ae28-688a3a5a2db2")
 	)
 	(wire
 		(pts
@@ -5804,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 195.58) (xy 119.38 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f7389a-e0f7-476f-b499-1ce35b86226b")
+	)
+	(wire
+		(pts
 			(xy 226.06 199.39) (xy 226.06 213.36)
 		)
 		(stroke
@@ -5881,6 +6216,16 @@
 			(type default)
 		)
 		(uuid "407539a6-dfcb-4f7b-9a66-0235ca802695")
+	)
+	(wire
+		(pts
+			(xy 38.1 182.88) (xy 41.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c04e4f-8a5b-40d8-a373-c01e652eca4a")
 	)
 	(wire
 		(pts
@@ -6004,6 +6349,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 185.42) (xy 38.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e38514-6b02-4a1c-8582-f0d2d851c338")
+	)
+	(wire
+		(pts
 			(xy 128.27 246.38) (xy 139.7 246.38)
 		)
 		(stroke
@@ -6064,6 +6419,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d462dcc-134e-49cc-982c-7bb86f6614bf")
+	)
+	(wire
+		(pts
 			(xy 179.07 170.18) (xy 212.09 170.18)
 		)
 		(stroke
@@ -6081,6 +6446,16 @@
 			(type default)
 		)
 		(uuid "62706864-ef54-493b-ab48-ea2ea26064ff")
+	)
+	(wire
+		(pts
+			(xy 41.91 185.42) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e5a2e5-07f2-4826-bc10-47f06233c32e")
 	)
 	(wire
 		(pts
@@ -6244,13 +6619,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 182.88) (xy 81.28 182.88)
+			(xy 93.98 198.12) (xy 109.22 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "760f11fe-c436-4687-a9c1-dd9c4ddecf64")
+		(uuid "73540bb1-77d9-4bf6-a9b8-01d47e4d139f")
 	)
 	(wire
 		(pts
@@ -6294,6 +6669,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 133.35) (xy 38.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4a5638-d446-48cd-860f-c686210a6064")
+	)
+	(wire
+		(pts
 			(xy 105.41 180.34) (xy 119.38 180.34)
 		)
 		(stroke
@@ -6331,6 +6716,16 @@
 			(type default)
 		)
 		(uuid "80c8f449-83f6-4310-bd27-1947965b449b")
+	)
+	(wire
+		(pts
+			(xy 35.56 182.88) (xy 38.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825a53c8-2048-4c7e-85ac-cf190884ab8a")
 	)
 	(wire
 		(pts
@@ -6514,6 +6909,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 133.35) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a52638-52da-4f5c-b86e-63f1f34d109b")
+	)
+	(wire
+		(pts
 			(xy 143.51 125.73) (xy 143.51 121.92)
 		)
 		(stroke
@@ -6691,6 +7096,26 @@
 			(type default)
 		)
 		(uuid "a7efbe99-2ef7-466f-bcdd-b90040b32e3a")
+	)
+	(wire
+		(pts
+			(xy 52.07 185.42) (xy 54.61 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fcc213-4d4b-4bfa-aaa0-6212b01edb4c")
+	)
+	(wire
+		(pts
+			(xy 52.07 182.88) (xy 54.61 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9773fd-b28e-4474-a21f-c0752f658f98")
 	)
 	(wire
 		(pts
@@ -7014,6 +7439,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 189.23) (xy 35.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f52827-6c29-4b43-9fa6-a57f05d9f898")
+	)
+	(wire
+		(pts
 			(xy 350.52 193.04) (xy 350.52 198.12)
 		)
 		(stroke
@@ -7021,6 +7456,16 @@
 			(type default)
 		)
 		(uuid "c9c69a7d-0d48-4510-b1b9-474e5c2cbf6a")
+	)
+	(wire
+		(pts
+			(xy 52.07 135.89) (xy 54.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdf03a2-6451-43ac-bd8e-3f1ac26236ef")
 	)
 	(wire
 		(pts
@@ -7104,6 +7549,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 133.35) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e870df-60c8-4d29-a503-9de2e5fe770e")
+	)
+	(wire
+		(pts
 			(xy 186.69 193.04) (xy 179.07 193.04)
 		)
 		(stroke
@@ -7111,6 +7566,16 @@
 			(type default)
 		)
 		(uuid "db8754c5-e295-42e1-a55a-cdf1e6f7c6f0")
+	)
+	(wire
+		(pts
+			(xy 54.61 135.89) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd94715a-0828-4e41-8e48-983cac0c512c")
 	)
 	(wire
 		(pts
@@ -7194,13 +7659,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 43.18 139.7)
+			(xy 271.78 123.19) (xy 271.78 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e35115d7-a702-4f17-83eb-aa7a02614f17")
+	)
+	(wire
+		(pts
+			(xy 54.61 185.42) (xy 54.61 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e351e785-ce0d-4d33-a5eb-c14e72e8c469")
 	)
 	(wire
 		(pts
@@ -7254,7 +7729,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 147.32) (xy 43.18 156.21)
+			(xy 271.78 139.7) (xy 271.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7281,6 +7756,16 @@
 			(type default)
 		)
 		(uuid "ea4d19ff-35e9-4c1f-9856-79dffb3d46ef")
+	)
+	(wire
+		(pts
+			(xy 54.61 182.88) (xy 81.28 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea550880-d4b6-4eb3-831d-40d2b0bdd542")
 	)
 	(wire
 		(pts
@@ -7311,6 +7796,26 @@
 			(type default)
 		)
 		(uuid "ee0a68de-4818-40c4-bb72-0f4f1403c942")
+	)
+	(wire
+		(pts
+			(xy 35.56 139.7) (xy 35.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee51bdd3-dc8b-4176-88d8-0396d86966a3")
+	)
+	(wire
+		(pts
+			(xy 54.61 133.35) (xy 58.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fa09c4-a004-4c2b-a9fd-f4feb4f24a2a")
 	)
 	(wire
 		(pts
@@ -7562,6 +8067,16 @@
 		)
 		(uuid "5fcc37e2-7f5d-4c0a-8d34-743b346b586b")
 	)
+	(label "push_button"
+		(at 83.82 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "654e1aab-b14f-4fa9-a3d4-6723a12f3b3a")
+	)
 	(label "D_P"
 		(at 196.85 172.72 180)
 		(effects
@@ -7783,7 +8298,7 @@
 		(uuid "ca84e230-9094-4e8d-8e11-81b9f5560810")
 	)
 	(label "nRST"
-		(at 69.85 182.88 0)
+		(at 64.77 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7811,6 +8326,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1b133e8-130f-4388-b374-31a2316185f4")
+	)
+	(label "push_button"
+		(at 93.98 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e60ac34f-ff9d-4b6f-a2fe-6be69e73355c")
 	)
 	(label "D_N"
 		(at 383.54 92.71 180)
@@ -8079,6 +8604,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0677a880-7ff4-4d85-be7b-2ec19f4a711b")
+		(property "Reference" "C256"
+			(at 54.61 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF 50V"
+			(at 62.484 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 59.3852 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KB85PNL"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "0603 (608mm)"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3008ca66-12b6-49a7-aeba-c467100211ab")
+		)
+		(pin "2"
+			(uuid "18d47e84-7d27-4ba0-af31-67d7a954c92c")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "C256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 223.52 0)
 		(unit 1)
@@ -8270,6 +8890,132 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "#PWR0479")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Button:TS04-66-43-BK-260-SMT")
+		(at 46.99 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c0a4d9-6d68-4d88-9138-b88c253573f3")
+		(property "Reference" "S2"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS04-66-43-BK-260-SMT"
+			(at 46.99 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_Button:TS046643BK260SMT"
+			(at 73.66 277.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 73.66 377.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
+			(at 48.514 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.5"
+			(at 73.66 577.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS046643BK260SMT"
+			(at 73.66 677.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS04-66-43-BK-260-SMT?qs=A6eO%252BMLsxmRRNbMeRTdGlg%3D%3D"
+			(at 73.66 777.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 73.66 877.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS04-66-43-BK-260-SMT"
+			(at 73.66 977.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2932e492-f137-4839-bd53-51c40b01be9d")
+		)
+		(pin "3"
+			(uuid "4c1eb811-2953-4c90-8256-7d191fb77f44")
+		)
+		(pin "2"
+			(uuid "2a276292-fe22-4213-99c3-ea76ff2bd504")
+		)
+		(pin "1"
+			(uuid "09a7dc77-c147-4b3c-b410-179b4432b9b0")
+		)
+		(instances
+			(project ""
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -8766,6 +9512,132 @@
 			(project ""
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BassingaLib_Button:TS04-66-43-BK-260-SMT")
+		(at 46.99 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bafdb9f-9641-4065-ab67-2f70c21c62c3")
+		(property "Reference" "S3"
+			(at 46.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS04-66-43-BK-260-SMT"
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BassingaLib_Button:TS046643BK260SMT"
+			(at 73.66 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 73.66 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
+			(at 48.514 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.5"
+			(at 73.66 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS046643BK260SMT"
+			(at 73.66 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS04-66-43-BK-260-SMT?qs=A6eO%252BMLsxmRRNbMeRTdGlg%3D%3D"
+			(at 73.66 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 73.66 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS04-66-43-BK-260-SMT"
+			(at 73.66 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a6da05be-0b40-431a-ac74-e0d00f3f1b8e")
+		)
+		(pin "3"
+			(uuid "ed716ec5-6171-46d7-aac8-23b0961dfa1d")
+		)
+		(pin "2"
+			(uuid "04a4491b-3aac-4a84-9f76-64af771d45a8")
+		)
+		(pin "1"
+			(uuid "aae1b078-3887-40d7-ac15-33b6f05fa64a")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -10487,7 +11359,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 130.81 0)
+		(at 271.78 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +11368,7 @@
 		(fields_autoplaced yes)
 		(uuid "5312578c-a1df-4753-ac85-a24189bec95e")
 		(property "Reference" "#PWR0439"
-			(at 43.18 134.62 0)
+			(at 271.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +11377,7 @@
 			)
 		)
 		(property "Value" "+3.3V_Logic"
-			(at 43.18 125.73 0)
+			(at 271.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +11385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +11394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,7 +11403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,6 +11606,72 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "#PWR0450")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56bd5b08-f66f-4734-86bf-3e8ae58da2cf")
+		(property "Reference" "#PWR0494"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b32219-4c5d-4342-8da7-22617146b278")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "#PWR0494")
 					(unit 1)
 				)
 			)
@@ -13619,7 +14557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 156.21 0)
+		(at 271.78 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13628,7 +14566,7 @@
 		(fields_autoplaced yes)
 		(uuid "b742d49b-3498-42cd-91c6-c78c01c7f680")
 		(property "Reference" "#PWR0440"
-			(at 43.18 162.56 0)
+			(at 271.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +14575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 161.29 0)
+			(at 271.78 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +14583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 156.21 0)
+			(at 271.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +14592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 156.21 0)
+			(at 271.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,7 +14601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 156.21 0)
+			(at 271.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +15078,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 143.51 0)
+		(at 271.78 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14149,7 +15087,7 @@
 		(dnp no)
 		(uuid "cba3b1be-7f84-4f86-af4e-178e0509bbc9")
 		(property "Reference" "C233"
-			(at 46.99 143.256 90)
+			(at 275.59 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +15095,7 @@
 			)
 		)
 		(property "Value" "4.7uF 50V"
-			(at 39.116 143.51 90)
+			(at 267.716 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,7 +15103,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 42.2148 147.32 0)
+			(at 270.8148 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14174,7 +15112,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/585/MLCC_Automotive-1837966.pdf"
-			(at 43.18 143.51 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14183,7 +15121,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0603"
-			(at 43.18 143.51 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14192,7 +15130,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 43.18 143.51 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14201,7 +15139,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B475KBHNFNE"
-			(at 43.18 143.51 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +15148,7 @@
 			)
 		)
 		(property "Packaging" "1206 (3216 mm)"
-			(at 43.18 143.51 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,6 +15487,72 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "#PWR0469")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dedd1112-bcac-4ccd-8b3d-4670d46995ec")
+		(property "Reference" "#PWR0494"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95d6f101-6d96-49b5-8aec-6ae53c1cd61a")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "#PWR0494")
 					(unit 1)
 				)
 			)
@@ -15262,6 +16266,72 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "R275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f75962d7-74bd-41a3-83c6-328440eb682a")
+		(property "Reference" "#PWR0493"
+			(at 35.56 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a059c86-a3d7-4a1d-b3d9-2f14aa9a3bb2")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
+					(reference "#PWR0493")
 					(unit 1)
 				)
 			)
