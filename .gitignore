@@ -19,6 +19,7 @@ _autosave-*
 # Intermediate files
 *.cache.lib
 *.bak
+*.log
 fp-info-cache
 *.kicad_sch.lck
 *.kicad_prl

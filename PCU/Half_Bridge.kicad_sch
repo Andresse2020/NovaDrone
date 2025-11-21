@@ -282,7 +282,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
+			(property "Footprint" "BassingaLib_Mosfets:SQJ402EPT1"
 				(at -10.414 -26.162 0)
 				(effects
 					(font
@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
+		(property "Footprint" "BassingaLib_Mosfets:SQJ402EPT1"
 			(at 88.646 65.532 0)
 			(effects
 				(font
@@ -4474,7 +4474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
+		(property "Footprint" "BassingaLib_Mosfets:SQJ402EPT1"
 			(at 88.646 90.932 0)
 			(effects
 				(font
