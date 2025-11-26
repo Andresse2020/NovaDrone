@@ -3049,7 +3049,7 @@
 		)
 		(uuid "0e7e637e-6ce8-4c2c-bd63-1b337d74042b")
 	)
-	(text "+3.3V_Logic Mesurement"
+	(text "+3.3V_Logic_filtered Mesurement"
 		(exclude_from_sim no)
 		(at 254.254 203.2 0)
 		(effects
@@ -3144,6 +3144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08394100-5607-40a9-ba9f-1968dbabb5fb")
+	)
+	(junction
+		(at 195.58 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cc76807-ce84-4168-9244-15684f743ae5")
 	)
 	(junction
 		(at 73.66 139.7)
@@ -3893,6 +3899,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 88.9) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c4187d-0db6-4b3a-ab93-0d561c9a411a")
+	)
+	(wire
+		(pts
 			(xy 49.53 237.49) (xy 49.53 240.03)
 		)
 		(stroke
@@ -4333,7 +4349,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 214.63 88.9)
+			(xy 212.09 88.9) (xy 218.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4380,6 +4396,16 @@
 			(type default)
 		)
 		(uuid "8cf20d6d-7565-4598-afe2-3382685747a7")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e955eef-e4a6-409f-8768-f30d84dde684")
 	)
 	(wire
 		(pts
@@ -4853,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 233.68 88.9)
+			(xy 226.06 88.9) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 196.85 88.9)
+			(xy 180.34 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5298,6 +5324,72 @@
 		(uuid "fda99a0f-b300-4de8-a9cf-1a82dcbad9f8")
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 195.58 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "057aba98-afb4-4cc7-bb1e-21b14f9d2a2e")
+		(property "Reference" "#PWR0496"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_Logic"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d524e041-1d31-4fe0-94de-115736e23c6c")
+		)
+		(instances
+			(project "PCU"
+				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/8122c3c1-3842-43f9-aad7-aa03fb26189b"
+					(reference "#PWR0496")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BassingaLib_SMPS:AP63200WU-7")
 		(at 100.33 39.37 0)
 		(unit 1)
@@ -5456,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 274.32 76.2 0)
 			(effects
 				(font
@@ -5511,7 +5603,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e1d8e37-ee7b-4455-9068-44549f4bfa53")
 		(property "Reference" "#PWR0430"
 			(at 320.04 113.03 0)
@@ -5523,11 +5614,12 @@
 			)
 		)
 		(property "Value" "+3.3V_Logic"
-			(at 320.04 104.14 0)
+			(at 314.452 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7553,7 +7645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 115.57 213.36 0)
 			(effects
 				(font
@@ -7714,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 49.53 214.63 0)
 			(effects
 				(font
@@ -8385,7 +8477,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c076955-69f4-46bf-aeaa-93cb7497339a")
 		(property "Reference" "#PWR0436"
 			(at 375.92 195.58 0)
@@ -8397,11 +8488,12 @@
 			)
 		)
 		(property "Value" "+3.3V_Logic"
-			(at 375.92 186.69 0)
+			(at 369.57 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8511,7 +8603,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 88.9 270)
+		(at 222.25 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8520,7 +8612,7 @@
 		(dnp no)
 		(uuid "6ed89dcf-9e81-4b7b-a819-9f78a8a727c6")
 		(property "Reference" "R258"
-			(at 216.662 91.948 90)
+			(at 220.472 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8621,7 @@
 			)
 		)
 		(property "Value" "0.22R 1%"
-			(at 215.138 85.598 90)
+			(at 218.948 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8630,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 218.44 90.678 90)
+			(at 222.25 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 88.9 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8648,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 88.9 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8657,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 218.44 88.9 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8666,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RL0805FR-7W0R22L"
-			(at 218.44 88.9 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8675,7 @@
 			)
 		)
 		(property "Packaging" "0805 (2012mm)"
-			(at 218.44 88.9 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8892,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 200.66 88.9 90)
+		(at 208.28 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8809,7 +8901,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b467004-9439-4c9b-b95b-f25717d8fc6e")
 		(property "Reference" "FB2"
-			(at 200.6092 81.28 90)
+			(at 208.2292 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8909,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 200.6092 83.82 90)
+			(at 208.2292 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8917,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 200.66 90.678 90)
+			(at 208.28 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 88.9 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8935,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 200.66 88.9 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8944,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 200.66 88.9 90)
+			(at 208.28 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8953,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MPZ2012S601AT000"
-			(at 200.66 88.9 90)
+			(at 208.28 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8962,7 @@
 			)
 		)
 		(property "Packaging" "0805 (2012mm)"
-			(at 200.66 88.9 90)
+			(at 208.28 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,7 +13127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 238.76 213.36 0)
 			(effects
 				(font

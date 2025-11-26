@@ -6671,7 +6671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 250.952 100.838 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 42.672 66.548 0)
 			(effects
 				(font

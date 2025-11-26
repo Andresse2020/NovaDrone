@@ -9767,7 +9767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 44.45 34.29 0)
 			(effects
 				(font
@@ -10693,7 +10693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 181.61 140.97 0)
 			(effects
 				(font
@@ -11188,7 +11188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 168.91 33.02 0)
 			(effects
 				(font
@@ -11320,7 +11320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 168.91 238.76 0)
 			(effects
 				(font
@@ -11386,7 +11386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -12610,7 +12610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 350.52 187.96 0)
 			(effects
 				(font
@@ -13067,7 +13067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 81.28 162.56 0)
 			(effects
 				(font
@@ -13410,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 181.61 204.47 0)
 			(effects
 				(font
@@ -13608,7 +13608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 26.67 115.57 0)
 			(effects
 				(font
@@ -14293,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 78.74 34.29 0)
 			(effects
 				(font
@@ -14974,7 +14974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 115.57 238.76 0)
 			(effects
 				(font
@@ -16235,7 +16235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_Logic"
+		(property "Value" "+3.3V_Logic_filtered"
 			(at 135.89 133.35 0)
 			(effects
 				(font
