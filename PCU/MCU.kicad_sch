@@ -4112,7 +4112,7 @@
 		)
 		(uuid "7c874111-1b11-4860-8bb9-cffe85c0b6f0")
 	)
-	(hierarchical_label "Current_Sens_3"
+	(hierarchical_label "Current_Sens_2"
 		(shape input)
 		(at 140.97 120.65 270)
 		(effects
@@ -4134,7 +4134,7 @@
 		)
 		(uuid "9b5b1e8a-bf2c-488c-9947-fe3f873e9334")
 	)
-	(hierarchical_label "Current_Sens_2"
+	(hierarchical_label "Current_Sens_1"
 		(shape input)
 		(at 105.41 92.71 180)
 		(effects
@@ -4222,7 +4222,7 @@
 		)
 		(uuid "e16a69c4-610e-477c-95a2-7a66de45adff")
 	)
-	(hierarchical_label "Current_Sens_1"
+	(hierarchical_label "Current_Sens_3"
 		(shape input)
 		(at 105.41 90.17 180)
 		(effects
