@@ -4333,113 +4333,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5436,12 +5329,6 @@
 		(uuid "7e50231e-3ea5-4d36-8fce-58fdbc4c6623")
 	)
 	(junction
-		(at 109.22 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e49ca3d-b02c-417b-907e-824f3b725e25")
-	)
-	(junction
 		(at 68.58 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5552,6 +5439,10 @@
 		(uuid "1ea47d29-5150-49bd-b665-960b4d4827ac")
 	)
 	(no_connect
+		(at 119.38 170.18)
+		(uuid "3a522596-2dd0-4a0c-a1a3-e844892eaacd")
+	)
+	(no_connect
 		(at 370.84 50.8)
 		(uuid "98ca0046-f0d2-4555-95cb-9740d05ed3d8")
 	)
@@ -5592,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "01cfddcf-1114-4387-b727-9bc0ea68e088")
-	)
-	(wire
-		(pts
-			(xy 109.22 170.18) (xy 119.38 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01ea94eb-766f-4e81-a3e9-93cb3cbb85f1")
 	)
 	(wire
 		(pts
@@ -5865,16 +5746,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 167.64) (xy 109.22 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de737d9-2723-429e-8ee8-8541727f3323")
-	)
-	(wire
-		(pts
 			(xy 139.7 246.38) (xy 139.7 248.92)
 		)
 		(stroke
@@ -5882,16 +5753,6 @@
 			(type default)
 		)
 		(uuid "1e029676-7025-41c4-82d2-bc23ebf8ddc8")
-	)
-	(wire
-		(pts
-			(xy 102.87 170.18) (xy 109.22 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e899df9-6376-40b4-ad0e-81e281b82197")
 	)
 	(wire
 		(pts
@@ -7475,16 +7336,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 173.99) (xy 90.17 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5b8c3c-91f0-480d-996e-20adf447ae55")
-	)
-	(wire
-		(pts
 			(xy 232.41 53.34) (xy 226.06 53.34)
 		)
 		(stroke
@@ -7632,16 +7483,6 @@
 			(type default)
 		)
 		(uuid "e16c142c-7617-4563-be60-a24c6f53dad3")
-	)
-	(wire
-		(pts
-			(xy 90.17 170.18) (xy 95.25 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1768a23-11d9-400a-9173-f8717bda810e")
 	)
 	(wire
 		(pts
@@ -11247,72 +11088,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "#PWR0467")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51f46be1-f7b9-4719-a1cd-dbb581b1cd72")
-		(property "Reference" "TP12"
-			(at 110.998 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 105.156 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c46a162b-c7a1-411b-b6f6-83ecada48e2f")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -15813,72 +15588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8bab488-2982-4ec8-9f1b-3d1ad2508224")
-		(property "Reference" "#PWR0452"
-			(at 90.17 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6cd2423-251f-42dd-8fa0-a796e86986b4")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
-					(reference "#PWR0452")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 250.19 217.17 0)
 		(unit 1)
@@ -16294,102 +16003,6 @@
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
 					(reference "#PWR0462")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f699229b-7df3-47d0-a49d-5e86978610f4")
-		(property "Reference" "R276"
-			(at 101.346 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 102.616 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 99.06 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AF0603FR-0710KL"
-			(at 99.06 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "0603 (608mm)"
-			(at 99.06 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44025646-a367-440c-baf1-2d3451cd6a0c")
-		)
-		(pin "2"
-			(uuid "f49dfe04-ad06-410a-a38f-8535090737a2")
-		)
-		(instances
-			(project "PCU"
-				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba/31e7bfdf-cbff-41f3-959b-3543ff7e412e"
-					(reference "R276")
 					(unit 1)
 				)
 			)
