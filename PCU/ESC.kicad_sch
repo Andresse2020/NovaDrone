@@ -3301,6 +3301,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 33.02) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5bffaf-6e49-4a8e-ac35-683b88d58609")
+	)
+	(wire
+		(pts
 			(xy 373.38 162.56) (xy 378.46 162.56)
 		)
 		(stroke
@@ -4649,6 +4659,16 @@
 		)
 		(uuid "5e9e9ccd-c1f3-45d0-a284-39f5afb6ddf1")
 	)
+	(label "nRST"
+		(at 168.91 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a09f987-9286-4059-81ec-b0f6a7ed98c8")
+	)
 	(label "ESC_Temp"
 		(at 414.02 375.92 180)
 		(effects
@@ -4688,6 +4708,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf4f6bd8-3e40-4bb8-a98c-8a85ed4ca51c")
+	)
+	(label "nRST"
+		(at 140.97 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df6b8757-4ff4-4080-b4dd-303046141865")
 	)
 	(label "OUT1"
 		(at 398.78 129.54 180)
@@ -4739,6 +4769,17 @@
 			(justify right)
 		)
 		(uuid "44bfeef5-7231-4272-8044-d6fd462bf7f7")
+	)
+	(hierarchical_label "nRST"
+		(shape input)
+		(at 147.32 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bff0423-2784-43d2-affa-a4f4fa58b862")
 	)
 	(hierarchical_label "ESC_CANL"
 		(shape bidirectional)

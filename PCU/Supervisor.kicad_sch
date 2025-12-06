@@ -5552,14 +5552,6 @@
 		(uuid "1ea47d29-5150-49bd-b665-960b4d4827ac")
 	)
 	(no_connect
-		(at 143.51 209.55)
-		(uuid "6eb4761f-607a-4a71-a52f-3b4a237f119e")
-	)
-	(no_connect
-		(at 146.05 209.55)
-		(uuid "733d43c0-99bb-44b1-87ae-95f6fe8baffe")
-	)
-	(no_connect
 		(at 370.84 50.8)
 		(uuid "98ca0046-f0d2-4555-95cb-9740d05ed3d8")
 	)
@@ -5586,6 +5578,10 @@
 	(no_connect
 		(at 334.01 50.8)
 		(uuid "e3fb974c-d9d7-47b5-b347-19e2b5ed159a")
+	)
+	(no_connect
+		(at 143.51 209.55)
+		(uuid "e4dfdc6c-1321-42fc-ae9f-fdd7ebe1e0d0")
 	)
 	(wire
 		(pts
@@ -7849,6 +7845,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 209.55) (xy 146.05 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f552f300-6474-4e3a-8ad2-9814d1b1cbad")
+	)
+	(wire
+		(pts
 			(xy 181.61 151.13) (xy 189.23 151.13)
 		)
 		(stroke
@@ -8485,6 +8491,17 @@
 			(justify right)
 		)
 		(uuid "9a4f3513-b1ba-432d-94f4-02ee4b87657a")
+	)
+	(hierarchical_label "ESC_nRST"
+		(shape input)
+		(at 146.05 217.17 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a93232d-bbdf-4be2-ac4b-d173a3686508")
 	)
 	(hierarchical_label "EN_Precharge"
 		(shape output)
@@ -14584,7 +14601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k 1%"
+		(property "Value" "100k 1%"
 			(at 146.05 130.8099 0)
 			(effects
 				(font
@@ -14629,7 +14646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AF0603FR-0710KL"
+		(property "Manufacturer_Part_Number" "AT0603FRE07100KL"
 			(at 143.51 129.54 0)
 			(effects
 				(font

@@ -2401,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 179.07) (xy 321.31 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f31f319-2b0e-47df-842d-52647b6e380f")
+	)
+	(wire
+		(pts
 			(xy 171.45 146.05) (xy 210.82 146.05)
 		)
 		(stroke
@@ -2511,6 +2521,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 148.59) (xy 294.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45712b9f-8dbe-4036-bd6c-40ee881f8f8b")
+	)
+	(wire
+		(pts
 			(xy 53.34 91.44) (xy 53.34 88.9)
 		)
 		(stroke
@@ -2618,6 +2638,16 @@
 			(type default)
 		)
 		(uuid "67a95dd9-085b-421d-bc8d-de856420e3f9")
+	)
+	(wire
+		(pts
+			(xy 302.26 134.62) (xy 321.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c1c90f-9901-4656-b760-75cb904987c6")
 	)
 	(wire
 		(pts
@@ -2791,6 +2821,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 87.63) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a564fa87-92c6-4d30-8811-b8487a9a6c2e")
+	)
+	(wire
+		(pts
 			(xy 33.02 78.74) (xy 33.02 88.9)
 		)
 		(stroke
@@ -2911,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 43.18) (xy 321.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bd03c6-4150-47e5-b55d-f39191fa0cbb")
+	)
+	(wire
+		(pts
 			(xy 92.71 245.11) (xy 222.25 245.11)
 		)
 		(stroke
@@ -3019,6 +3069,26 @@
 		)
 		(uuid "20d9805c-26eb-4c35-8ec8-8ab028ed7d82")
 	)
+	(label "ESC_nRST"
+		(at 294.64 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a512e96-e392-4820-8d40-e411009e7f18")
+	)
+	(label "ESC_nRST"
+		(at 302.26 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0c0211-1ebf-4400-89de-498c6836e80d")
+	)
 	(label "CANL"
 		(at 302.26 171.45 0)
 		(effects
@@ -3038,6 +3108,16 @@
 			(justify left bottom)
 		)
 		(uuid "3789f663-66d2-4d3a-b39e-78949097c9a0")
+	)
+	(label "ESC_nRST"
+		(at 302.26 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3969840c-4417-4936-b855-2b8c89132db1")
 	)
 	(label "CANH"
 		(at 146.05 245.11 0)
@@ -3069,6 +3149,16 @@
 			(justify left bottom)
 		)
 		(uuid "61c0dfe1-1324-4120-9f86-5c52c69ec3d3")
+	)
+	(label "ESC_nRST"
+		(at 302.26 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79c9b2cc-0a1d-4f51-b370-6ba6cb841ee5")
 	)
 	(label "CANL"
 		(at 247.65 182.88 90)
@@ -3140,6 +3230,16 @@
 			(justify left bottom)
 		)
 		(uuid "d070de31-00fa-4641-9be3-532e93021d06")
+	)
+	(label "ESC_nRST"
+		(at 302.26 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3728b9c-3303-43f9-89c0-95662c48ade9")
 	)
 	(label "CANL"
 		(at 302.26 127 0)
@@ -5407,6 +5507,16 @@
 				(justify left)
 			)
 		)
+		(pin "ESC_nRST" input
+			(at 278.13 148.59 0)
+			(uuid "f4e0c4a1-44f2-4663-9919-64462c99cc25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
@@ -5493,6 +5603,16 @@
 		(pin "ESC_CANH" bidirectional
 			(at 321.31 74.93 180)
 			(uuid "b6d00267-5c2e-487f-aa81-96bc76b7bc8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRST" input
+			(at 321.31 87.63 180)
+			(uuid "79723687-943e-4433-bd37-1e1eaaf8645a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,6 +5713,16 @@
 				(justify left)
 			)
 		)
+		(pin "nRST" input
+			(at 321.31 43.18 180)
+			(uuid "3e8634a5-88db-401d-a4d7-8315593854e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCU"
 				(path "/c5277b98-916c-45ac-b199-6b9ee16008ba"
@@ -5679,6 +5809,16 @@
 		(pin "ESC_CANH" bidirectional
 			(at 321.31 166.37 180)
 			(uuid "baf8be28-775f-4b8a-9d7f-1550f84fc0b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRST" input
+			(at 321.31 179.07 180)
+			(uuid "b586429d-3d35-4c5b-827b-42f15d6fc377")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,6 +6088,16 @@
 		(pin "ESC_CANH" bidirectional
 			(at 321.31 121.92 180)
 			(uuid "a4fb7212-4162-4a6a-ac61-4074e3220113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRST" input
+			(at 321.31 134.62 180)
+			(uuid "f575bdf3-9df5-4298-869b-6adf311b49c2")
 			(effects
 				(font
 					(size 1.27 1.27)
