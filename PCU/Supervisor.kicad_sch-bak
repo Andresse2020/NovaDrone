@@ -8258,7 +8258,7 @@
 	)
 	(hierarchical_label "Vbus_Mesure"
 		(shape input)
-		(at 140.97 217.17 270)
+		(at 135.89 217.17 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8291,7 +8291,7 @@
 	)
 	(hierarchical_label "V3.3_Mesure"
 		(shape input)
-		(at 135.89 217.17 270)
+		(at 140.97 217.17 270)
 		(effects
 			(font
 				(size 1.27 1.27)
