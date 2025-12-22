@@ -151,4 +151,9 @@ The FCU will be developed after propulsion system validation.
 
 NovaDrone firmware uses a custom modular embedded development environment built with **CMake**.
 
-### Firmware Architecture (7 Layers)
+### Firmware Architecture (6 Layers)
+
+
+© Andresse Brisel BASSINGA
+Licensed under CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
