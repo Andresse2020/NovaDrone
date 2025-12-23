@@ -1,5 +1,12 @@
 # NovaDrone
 
+Copyright © 2025 Andresse Brisel BASSINGA
+Licensed under CERN Open Hardware Licence v2 – Weakly Reciprocal (CERN-OHL-W)
+
+This project provides a complete hardware design for a professional UAV Quadcopter.
+Firmware is proprietary and not covered by this licence.
+
+
 ## Project Overview
 NovaDrone is a full hardware–firmware engineering project aiming to develop the **entire embedded electronics** of a quadcopter UAV **from scratch**.  
 Rather than relying on off-the-shelf components, the project focuses on designing all critical subsystems: propulsion electronics, real-time motor control, power supervision, communication, diagnostics, and later, a fully custom flight controller.
