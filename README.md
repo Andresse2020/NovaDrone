@@ -154,6 +154,10 @@ NovaDrone firmware uses a custom modular embedded development environment built 
 ### Firmware Architecture (6 Layers)
 
 
-© Andresse Brisel BASSINGA
-Licensed under CC BY-NC-SA 4.0
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Licence
+
+Hardware design files are licensed under the CERN Open Hardware Licence v2 – Weakly Reciprocal (CERN-OHL-W).
+
+The firmware is proprietary and not covered by this licence.
+Commercial licences are available on request.
