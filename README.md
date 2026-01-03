@@ -77,7 +77,7 @@ A single PCB containing all propulsion-related electronics.
 - LC filtering, TVS, fuses  
 - CAN-FD transceivers  
 - USB and UART  
-- XT90 (battery), XT30PW (motors), JST PH/SH, Tag-Connect SWD
+- XT60 (battery), XT30PW (motors), JST PH/SH, Tag-Connect SWD
 
 ---
 
