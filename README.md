@@ -139,7 +139,6 @@ The FCU will be developed after propulsion system validation.
 - Kalman-based estimation  
 - Stabilization loops  
 - Trajectory and navigation control  
-- Modular firmware (BSP → Drivers → Interfaces → Services → Control → App → Tests)
 
 ---
 
