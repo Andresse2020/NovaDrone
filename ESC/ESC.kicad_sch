@@ -2983,7 +2983,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7827,7 +7827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 99.06 158.75 0)
 			(effects
 				(font
@@ -7854,7 +7854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RT0603FRD0722RL"
+		(property "Manufacturer_Part_Number" "AC0603FR-0722RL"
 			(at 99.06 158.75 0)
 			(effects
 				(font
@@ -11386,7 +11386,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8ddf1aab-cef1-4cf5-a8ca-b2c162ce6120")
@@ -12707,7 +12707,7 @@
 		(at 60.96 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce94927a-653c-4567-8820-5872fa2d9473")
@@ -13458,7 +13458,7 @@
 		(at 552.45 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5018bca-ceba-464d-955b-7a48dd271ae3")
@@ -13489,7 +13489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 552.45 217.17 0)
 			(effects
 				(font
@@ -14796,7 +14796,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fdd7f460-6f7e-4741-a8e4-6709280e50d1")

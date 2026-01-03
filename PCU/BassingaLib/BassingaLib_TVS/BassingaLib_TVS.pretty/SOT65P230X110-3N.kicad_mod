@@ -1,0 +1,237 @@
+(footprint "SOT65P230X110-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-323_2025")
+	(tags "Diode ESD (Bi-directional)")
+	(property "Reference" "D**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "bee3aa11-9733-4872-ac60-4ce1309613f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT65P230X110-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f82552f-0c96-4b27-8f23-35e55f27c1c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a962f1b-6147-4cf8-b58c-bd9bf5469a9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f809a196-aa76-4e97-89a6-17d0d07da01c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -1.15)
+		(end -0.525 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6b289eb-f54e-4af7-bcfd-df64dd18b897")
+	)
+	(fp_line
+		(start -0.175 -1.05)
+		(end 0.175 -1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32af0d72-bc01-440e-b906-57729d542ce8")
+	)
+	(fp_line
+		(start -0.175 1.05)
+		(end -0.175 -1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1515ac7f-2cf5-448c-8601-e2b489bd27cd")
+	)
+	(fp_line
+		(start 0.175 -1.05)
+		(end 0.175 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91286afd-d2b8-4e8d-b60c-072dd59af371")
+	)
+	(fp_line
+		(start 0.175 1.05)
+		(end -0.175 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e7a5032-dc01-4d6a-9048-81c8bfa355d9")
+	)
+	(fp_line
+		(start -1.825 -1.35)
+		(end 1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f263d47d-808f-45ed-b4c4-6890a2659172")
+	)
+	(fp_line
+		(start -1.825 1.35)
+		(end -1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18afa1aa-c91a-4229-bf96-10ea5f0ed33a")
+	)
+	(fp_line
+		(start 1.825 -1.35)
+		(end 1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef54dda9-d991-4f51-ac94-b3613f964751")
+	)
+	(fp_line
+		(start 1.825 1.35)
+		(end -1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "653c10c7-1828-472d-895f-43e18c2e957c")
+	)
+	(fp_line
+		(start -0.625 -1.05)
+		(end 0.625 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a18caa0e-9834-4cfb-b381-de35085576d8")
+	)
+	(fp_line
+		(start -0.625 -0.4)
+		(end 0.025 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a51db47f-b361-4ebc-b85f-d1f9e0479028")
+	)
+	(fp_line
+		(start -0.625 1.05)
+		(end -0.625 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5165952c-f1dc-4210-903f-5b147e52eafc")
+	)
+	(fp_line
+		(start 0.625 -1.05)
+		(end 0.625 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8783c54f-caae-4ceb-b098-b715965fc59d")
+	)
+	(fp_line
+		(start 0.625 1.05)
+		(end -0.625 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "836cf3a1-5813-4633-be5c-473572700eae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "1085ce21-e5e1-44c5-b25b-c27efed21739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.65 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3d7bda4-8efb-4455-8b17-135b8980da28")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.65 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28e0ce14-0ff6-4246-a8bb-8c30d015e9fe")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.5 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffaac5ee-1b25-40fe-8046-1e79bb6fc41f")
+	)
+	(embedded_fonts no)
+	(model "VCAN33A2-03G-E3-08.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -2063,7 +2063,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9123,7 +9123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/281/NCU18XH103D60RB-1519634.pdf"
 			(at 391.16 359.41 0)
 			(effects
 				(font
@@ -9805,7 +9805,7 @@
 		(at 77.47 204.47 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce94927a-653c-4567-8820-5872fa2d9473")
@@ -11412,7 +11412,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fdd7f460-6f7e-4741-a8e4-6709280e50d1")

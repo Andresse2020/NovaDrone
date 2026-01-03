@@ -4596,7 +4596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC"
+		(symbol "Thermistor_NTC_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4658,7 +4658,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4667,7 +4667,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Thermistor_NTC_0_1"
+			(symbol "Thermistor_NTC_1_0_1"
 				(arc
 					(start -3.175 2.413)
 					(mid -3.0506 2.3165)
@@ -4813,7 +4813,7 @@
 					)
 				)
 			)
-			(symbol "Thermistor_NTC_1_1"
+			(symbol "Thermistor_NTC_1_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -10253,7 +10253,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "33ab03cc-6ddf-4940-9372-15ce3ccda4ec")
@@ -11509,7 +11509,7 @@
 		(at 215.9 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "59092d10-92cc-44df-8ced-fe9f3c2655d8")
@@ -14970,6 +14970,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Thermistor_NTC_1")
 		(lib_id "Device:Thermistor_NTC")
 		(at 356.87 205.74 0)
 		(unit 1)
@@ -15006,7 +15007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/281/NCU18XH103D60RB-1519634.pdf"
 			(at 356.87 204.47 0)
 			(effects
 				(font

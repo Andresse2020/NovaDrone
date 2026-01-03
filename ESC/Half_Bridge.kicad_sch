@@ -282,7 +282,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
+			(property "Footprint" "BassingaLib_Mosfets:SQJ402EPT1"
 				(at -10.414 -26.162 0)
 				(effects
 					(font
@@ -3956,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/54/crf-937137.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pa_e_51_rohs.pdf"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current Sense Resistors - SMD 0.010 ohms 1% 75PPM"
+		(property "Description" "Current Sense Resistors - SMD 10 mOhms 3 Watts 1 % 50 ppm/C AEC-Q200"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRF2512-FZ-R010ELF"
+		(property "Manufacturer_Part_Number" "PA2512FKE7T0R01E"
 			(at 104.14 80.01 0)
 			(effects
 				(font

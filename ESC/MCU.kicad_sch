@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Standard LEDs - SMD 0603 Dome Lens LED Blue- 465nm"
+			(property "Description" "Standard LEDs - SMD 0603 Dome Lens LED Blue- 465nm, 2.65 V, 2 mA"
 				(at 7.112 -6.858 0)
 				(effects
 					(font
