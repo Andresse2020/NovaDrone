@@ -5,10 +5,11 @@
 	(uuid "3a0e90f5-ebca-4de5-8435-ee87e74c0dc1")
 	(paper "A4")
 	(title_block
-		(title "ESC")
+		(title "Propulsion Control Unit")
 		(date "2025-05-21")
 		(rev "v1.0")
-		(company "BASSINGA Lab")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2025 Andresse Brisel BASSINGA ")
 	)
 	(lib_symbols
 		(symbol "BassingaLib_Diodes:SS0540_R1_00001"

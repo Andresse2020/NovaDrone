@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8c9a72f9-b3f0-4268-a290-b9ae83f0ec8a")
+	(paper "A4")
+	(title_block
+		(title "Fly Controller")
+		(date "2026-01-03")
+		(rev "V1.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2026 Andresse Brisel BASSINGA ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

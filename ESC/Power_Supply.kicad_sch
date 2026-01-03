@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "dc3780aa-f483-4660-93b3-cf895b6b8a57")
 	(paper "A4")
+	(title_block
+		(title "ESC")
+		(date "2025-05-21")
+		(rev "v0.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2025 Andresse Brisel BASSINGA ")
+	)
 	(lib_symbols
 		(symbol "BWVS00505040100M00_1"
 			(pin_names

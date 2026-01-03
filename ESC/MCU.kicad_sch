@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "5ba1c3a3-1a15-4fad-9018-4f7458701f3a")
 	(paper "A4")
+	(title_block
+		(title "ESC")
+		(date "2025-05-21")
+		(rev "v0.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2025 Andresse Brisel BASSINGA ")
+	)
 	(lib_symbols
 		(symbol "BassinaLib_Crystals:ECS-80-10-30B-CWN-TR"
 			(exclude_from_sim no)

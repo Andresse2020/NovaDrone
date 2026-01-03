@@ -5,9 +5,11 @@
 	(uuid "23c300ea-9e41-4ccc-a329-85f177c03d4d")
 	(paper "A3")
 	(title_block
+		(title "Propulsion Control Unit")
 		(date "2025-05-21")
 		(rev "v1.0")
-		(company "BASSINGA Lab")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2025 Andresse Brisel BASSINGA ")
 	)
 	(lib_symbols
 		(symbol "BassinaLib_Com_Interfaces:TCAN3403DDFRQ1"

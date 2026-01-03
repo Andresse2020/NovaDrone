@@ -5,10 +5,11 @@
 	(uuid "7036a814-0f41-4c6c-a077-a78d90a22423")
 	(paper "A2")
 	(title_block
-		(title "NovaDrone")
+		(title "ESC")
 		(date "2025-05-21")
-		(rev "v1.0")
-		(company "BASSINGA")
+		(rev "v0.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2025 Andresse Brisel BASSINGA ")
 	)
 	(lib_symbols
 		(symbol "BM03B-SRSS-TB_LF__SN__1"
