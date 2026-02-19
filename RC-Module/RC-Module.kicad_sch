@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b2168c87-f725-4d50-b16a-b8bc482e5c54")
+	(paper "A4")
+	(title_block
+		(title "Remote Control Module")
+		(date "2026-02-19")
+		(rev "v1.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2026 Andresse Brisel BASSINGA ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
