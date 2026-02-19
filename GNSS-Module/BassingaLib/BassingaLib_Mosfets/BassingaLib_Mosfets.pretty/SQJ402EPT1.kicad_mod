@@ -1,0 +1,249 @@
+(footprint "SQJ402EPT1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerPAK® SO-8L Single-2021")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "39497e97-fdd7-412f-a228-f00bb19c53fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SQJ402EPT1"
+		(at 0 0.078 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76860ab3-68ee-406d-970c-6843aaf9f9b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04681d92-576e-41cf-a7db-44fe213b64da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d56c19b3-f5e6-4fd8-9f10-e0c35b6b4303")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.905 3.7)
+		(end -1.905 3.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8de87c3-250a-4f4d-b99b-97fcacf2ff20")
+	)
+	(fp_line
+		(start -1.905 3.8)
+		(end -1.905 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daeaffb9-442e-4a96-a76f-bcca63e1bc9f")
+	)
+	(fp_arc
+		(start -1.905 3.7)
+		(mid -1.855 3.75)
+		(end -1.905 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88bb654c-d800-42a5-bfe8-305c041d540d")
+	)
+	(fp_arc
+		(start -1.905 3.8)
+		(mid -1.955 3.75)
+		(end -1.905 3.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e726d420-e987-4573-a535-699dc14d2b7b")
+	)
+	(fp_line
+		(start -3.625 -4.048)
+		(end 3.625 -4.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb000cbc-b876-40f4-baae-ea756fe91713")
+	)
+	(fp_line
+		(start -3.625 4.203)
+		(end -3.625 -4.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3a25159-0543-47c2-9402-0373c906b989")
+	)
+	(fp_line
+		(start 3.625 -4.048)
+		(end 3.625 4.203)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff05c57a-ddf2-4e5d-a5b4-ac4fe706b5b1")
+	)
+	(fp_line
+		(start 3.625 4.203)
+		(end -3.625 4.203)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd59254e-0fc3-43e2-a47d-001d40c856fc")
+	)
+	(fp_line
+		(start -2.45 -2.185)
+		(end 2.45 -2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4eaf38b3-7c5a-48d8-850a-161149d8d0ee")
+	)
+	(fp_line
+		(start -2.45 2.185)
+		(end -2.45 -2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "747e84c7-a167-4533-a3c0-5b74b90daf0a")
+	)
+	(fp_line
+		(start 2.45 -2.185)
+		(end 2.45 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32882c37-89af-4e62-90fb-4af082a494da")
+	)
+	(fp_line
+		(start 2.45 2.185)
+		(end -2.45 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8dcdd64-2a70-435d-9d72-566f9576f6d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "634e8b04-e484-4d67-80d0-c3256a6c4ab4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.905 2.793)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62cd7307-28bb-4197-a091-d9315fc2e3df")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.793)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3a79fee-1446-4ce7-9b55-9192b08c63b8")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.793)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "444332b2-05e0-4af8-a721-0f540d14ad2d")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.793)
+		(size 0.41 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ea21043-3a4e-4aea-9fe2-1c1560c43d6e")
+	)
+	(pad "5" smd rect
+		(at -2.328 0.078)
+		(size 0.595 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ae973e0-dee0-4421-868e-acb5d49c08d7")
+	)
+	(pad "5" smd rect
+		(at 0 -2.793 90)
+		(size 0.51 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c76cf1e9-90d4-4b87-925c-63a6f74a7971")
+	)
+	(pad "5" smd rect
+		(at 0 -0.723 90)
+		(size 3.63 4.061)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6f09641-1cb8-4bfd-a18c-5ad52d3499f2")
+	)
+	(pad "5" smd rect
+		(at 2.328 0.078)
+		(size 0.595 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d059816e-7ac3-4c22-b563-ba6b1517e60b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/BassingaLib/BassingaLib_Mosfets/3D/SQJA06EP-T1_GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
