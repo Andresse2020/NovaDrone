@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a6946319-401a-4713-973a-e01b54e33a28")
+	(paper "A4")
+	(title_block
+		(title "GNSS & Compass Module")
+		(date "2026-02-19")
+		(rev "v1.0")
+		(company "BASSINGA_LAB")
+		(comment 1 "Copyright © 2026 Andresse Brisel BASSINGA ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
